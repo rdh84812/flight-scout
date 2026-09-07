@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-08",
-  "generated_at": "2026-09-08T01:06:29+08:00",
-  "scan_id": 26,
+  "generated_at": "2026-09-08T07:00:17+08:00",
+  "scan_id": 27,
   "prompt": "華航，飛任何地方，桃園機場出發",
   "summary": {
-    "total": 91,
-    "changed": 76,
+    "total": 92,
+    "changed": 14,
     "new": 0,
-    "price_drops": 76,
+    "price_drops": 14,
     "lowest_price": 8408.0,
     "countries": [
       "中國",
@@ -50,10 +50,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 55 分鐘, TPE–CEB",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzAxcF9seRooEgoyMDI2LTA5LTE5MgJDSWoNCAISCS9tLzAxcF9seXIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEkwR2dvSTJFRVFBQm9EVkZkRU9EaHdxTThC&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 8418.0,
-      "price_drop": 10.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzAxcF9seRooEgoyMDI2LTA5LTE5MgJDSWoNCAISCS9tLzAxcF9seXIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEkwR2dvSTJFRVFBQm9EVkZkRU9EaHdxTThC&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "馬尼拉",
@@ -67,10 +67,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 15 分鐘, TPE–MNL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXINCAISCS9tLzAxOTVwZBooEgoyMDI2LTEwLTA3MgJDSWoNCAISCS9tLzAxOTVwZHIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEkxR2dvSWowSVFBQm9EVkZkRU9EaHcxZEFC&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 8473.0,
-      "price_drop": 10.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXINCAISCS9tLzAxOTVwZBooEgoyMDI2LTEwLTA3MgJDSWoNCAISCS9tLzAxOTVwZHIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEkxR2dvSWowSVFBQm9EVkZkRU9EaHcxZEFC&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "香港",
@@ -84,10 +84,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 1 小時 55 分鐘, TPE–HKG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzAzaDY0GicSCjIwMjYtMDktMjAyAkNJagwIAhIIL20vMDNoNjRyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJMkdnb0kyVVFRQUJvRFZGZEVPRGh3NTlnQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 8804.0,
-      "price_drop": 11.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzAzaDY0GicSCjIwMjYtMDktMjAyAkNJagwIAhIIL20vMDNoNjRyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJMkdnb0kyVVFRQUJvRFZGZEVPRGh3NTlnQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "胡志明市",
@@ -101,27 +101,44 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 35 分鐘, TPE–SGN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBobjRoGicSCjIwMjYtMTAtMDcyAkNJagwIAhIIL20vMGhuNGhyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJM0dnb0lua1VRQUJvRFZGZEVPRGh3d05vQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 8871.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBobjRoGicSCjIwMjYtMTAtMDcyAkNJagwIAhIIL20vMGhuNGhyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJM0dnb0lua1VRQUJvRFZGZEVPRGh3d05vQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "上海",
       "country": "中國",
-      "outbound_date": "10月30日週五",
-      "return_date": "11月5日週四",
+      "outbound_date": "12月11日週五",
+      "return_date": "12月17日週四",
       "price": 9463.0,
-      "original_price": 12830.0,
+      "original_price": null,
       "currency": "TWD",
-      "discount_info": "比平時便宜 26%",
+      "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時, TPE–PVG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTMwMgJDSWoHCAESA1RQRXIMCAISCC9tLzA2d2pmGicSCjIwMjYtMTEtMDUyAkNJagwIAhIIL20vMDZ3amZyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFekdnb0k5MGtRQUJvRFZGZEVPRGh3cWVrQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEyLTExMgJDSWoHCAESA1RQRXIMCAISCC9tLzA2d2pmGicSCjIwMjYtMTItMTcyAkNJagwIAhIIL20vMDZ3amZyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJNEdnb0k5MGtRQUJvRFZGZEVPRGh3cWVrQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
+    },
+    {
+      "destination": "首爾",
+      "country": "南韓",
+      "outbound_date": "9月17日週四",
+      "return_date": "9月25日週五",
+      "price": 9604.0,
+      "original_price": null,
+      "currency": "TWD",
+      "discount_info": "",
+      "airline": "",
+      "flight_number": "",
+      "flight_details": "直達, 2 小時 35 分鐘, TPE–ICN",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBoc3FmGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMGhzcWZyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJNUdnb0loRXNRQUJvRFZGZEVPRGh3NXV3Qg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "price_drop",
-      "previous_price": 9472.0,
-      "price_drop": 9.0
+      "previous_price": 10180.0,
+      "price_drop": 576.0
     },
     {
       "destination": "曼谷",
@@ -135,10 +152,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 45 分鐘, TPE–BKK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbjJnGicSCjIwMjYtMDktMTkyAkNJagwIAhIIL20vMGZuMmdyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJNEdnb0lta3dRQUJvRFZGZEVPRGh3d1BBQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 9761.0,
-      "price_drop": 7.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbjJnGicSCjIwMjYtMDktMTkyAkNJagwIAhIIL20vMGZuMmdyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNd0dnb0lta3dRQUJvRFZGZEVPRGh3d1BBQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "沖繩市",
@@ -152,10 +169,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 1 小時 40 分鐘, TPE–OKA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDcxeBooEgoyMDI2LTA5LTIyMgJDSWoNCAISCS9tLzBncDcxeHIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEk1R2dvSXFFMFFBQm9EVkZkRU9EaHdnUFFC&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 9905.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDcxeBooEgoyMDI2LTA5LTIyMgJDSWoNCAISCS9tLzBncDcxeHIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVE14R2dvSXFFMFFBQm9EVkZkRU9EaHdnUFFC&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "釜山",
@@ -169,27 +186,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 15 分鐘, TPE–PUS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzBodjdsGicSCjIwMjYtMDktMTkyAkNJagwIAhIIL20vMGh2N2xyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNd0dnb0k3azBRQUJvRFZGZEVPRGh3M2ZVQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 9971.0,
-      "price_drop": 5.0
-    },
-    {
-      "destination": "首爾",
-      "country": "南韓",
-      "outbound_date": "9月18日週五",
-      "return_date": "9月25日週五",
-      "price": 10180.0,
-      "original_price": null,
-      "currency": "TWD",
-      "discount_info": "",
-      "airline": "",
-      "flight_number": "",
-      "flight_details": "直達, 2 小時 35 分鐘, TPE–ICN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBoc3FmGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMGhzcWZyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNeEdnb0l4RThRQUJvRFZGZEVPRGh3Z1BzQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 10184.0,
-      "price_drop": 4.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzBodjdsGicSCjIwMjYtMDktMTkyAkNJagwIAhIIL20vMGh2N2xyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNeUdnb0k3azBRQUJvRFZGZEVPRGh3M2ZVQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "新加坡",
@@ -203,10 +203,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 4 小時 35 分鐘, TPE–SIN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzA2dDJ0GicSCjIwMjYtMTAtMDcyAkNJagwIAhIIL20vMDZ0MnRyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNeUdnb0lyRkFRQUJvRFZGZEVPRGh3eVAwQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 10296.0,
-      "price_drop": 12.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzA2dDJ0GicSCjIwMjYtMTAtMDcyAkNJagwIAhIIL20vMDZ0MnRyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNekdnb0lyRkFRQUJvRFZGZEVPRGh3eVAwQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "河內",
@@ -220,10 +220,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 15 分鐘, TPE–HAN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbmZmGicSCjIwMjYtMTAtMDYyAkNJagwIAhIIL20vMGZuZmZyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNekdnb0kxbEFRQUJvRFZGZEVPRGh3emY0Qg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 10336.0,
-      "price_drop": 10.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbmZmGicSCjIwMjYtMTAtMDYyAkNJagwIAhIIL20vMGZuZmZyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNMEdnb0kxbEFRQUJvRFZGZEVPRGh3emY0Qg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "熊本市",
@@ -237,10 +237,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 10 分鐘, TPE–KMJ",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZfMBooEgoyMDI2LTA5LTI2MgJDSWoNCAISCS9tLzBncDZfMHIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEUwR2dvSWoxVVFBQm9EVkZkRU9EaHcwSXdD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 10905.0,
-      "price_drop": 10.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZfMBooEgoyMDI2LTA5LTI2MgJDSWoNCAISCS9tLzBncDZfMHIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEV6R2dvSWoxVVFBQm9EVkZkRU9EaHcwSXdD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "峴港",
@@ -254,10 +254,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 50 分鐘, TPE–DAD",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTAyMgJDSWoHCAESA1RQRXINCAISCS9tLzAyNnlxZhooEgoyMDI2LTEwLTA4MgJDSWoNCAISCS9tLzAyNnlxZnIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVE0wR2dvSTZGZ1FBQm9EVkZkRU9EaHdwWmdD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 11377.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTAyMgJDSWoHCAESA1RQRXINCAISCS9tLzAyNnlxZhooEgoyMDI2LTEwLTA4MgJDSWoNCAISCS9tLzAyNnlxZnIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVE0xR2dvSTZGZ1FBQm9EVkZkRU9EaHdwWmdD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "吉隆坡",
@@ -271,10 +271,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 4 小時 40 分鐘, TPE–KUL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzA0OWQxGicSCjIwMjYtMDktMTkyAkNJagwIAhIIL20vMDQ5ZDFyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNMUdnb0k4MWtRQUJvRFZGZEVPRGh3M0pzQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 11517.0,
-      "price_drop": 10.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzA0OWQxGicSCjIwMjYtMDktMTkyAkNJagwIAhIIL20vMDQ5ZDFyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNMkdnb0k4MWtRQUJvRFZGZEVPRGh3M0pzQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "北京",
@@ -288,10 +288,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 25 分鐘, TPE–PEK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxOTE0GicSCjIwMjYtMTAtMDMyAkNJagwIAhIIL20vMDE5MTRyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJYUNnalhYQkFBR2dOVVYwUTRPSEMvcEFJPQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 11872.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxOTE0GicSCjIwMjYtMTAtMDMyAkNJagwIAhIIL20vMDE5MTRyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJYUNnalhYQkFBR2dOVVYwUTRPSEMvcEFJPQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "雅加達",
@@ -305,10 +305,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 5 小時 30 分鐘, TPE–CGK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA0NHJ2GicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMDQ0cnZyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNMkdnb0lqVjBRQUJvRFZGZEVPRGh3NnFVQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 11926.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA0NHJ2GicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMDQ0cnZyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNM0dnb0lqVjBRQUJvRFZGZEVPRGh3NnFVQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "廣州市",
@@ -322,10 +322,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 5 分鐘, TPE–CAN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzAzOTNnGicSCjIwMjYtMTAtMDMyAkNJagwIAhIIL20vMDM5M2dyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNM0dnb0lsMTRRQUJvRFZGZEVPRGh3bmFrQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 12064.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzAzOTNnGicSCjIwMjYtMTAtMDMyAkNJagwIAhIIL20vMDM5M2dyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNNEdnb0lsMTRRQUJvRFZGZEVPRGh3bmFrQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "鹿兒島市",
@@ -339,10 +339,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 5 分鐘, TPE–KOJ",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA0OXdtGicSCjIwMjYtMDktMjQyAkNJagwIAhIIL20vMDQ5d21yBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRBYUNnaWRYeEFBR2dOVVYwUTRPSERFckFJPQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 12198.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA0OXdtGicSCjIwMjYtMDktMjQyAkNJagwIAhIIL20vMDQ5d21yBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRBYUNnaWRYeEFBR2dOVVYwUTRPSERFckFJPQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "富山市",
@@ -356,10 +356,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時, TPE–TOY",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDU5cRooEgoyMDI2LTA5LTIxMgJDSWoNCAISCS9tLzBncDU5cXIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVE00R2dvSXpsOFFBQm9EVkZkRU9EaHczNjBD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 12247.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDU5cRooEgoyMDI2LTA5LTIxMgJDSWoNCAISCS9tLzBncDU5cXIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVE01R2dvSXpsOFFBQm9EVkZkRU9EaHczNjBD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "名古屋市",
@@ -373,10 +373,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 35 分鐘, TPE–NGO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBncWZ5GicSCjIwMjYtMTEtMDQyAkNJagwIAhIIL20vMGdxZnlyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFNUdnb0loR0FRQUJvRFZGZEVPRGh3aWE4Qw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 12302.0,
-      "price_drop": 10.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBncWZ5GicSCjIwMjYtMTEtMDQyAkNJagwIAhIIL20vMGdxZnlyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFNEdnb0loR0FRQUJvRFZGZEVPRGh3aWE4Qw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "高松市",
@@ -390,10 +390,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 35 分鐘, TPE–TAK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZybhooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBncDZybnIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEUzR2dvSTcyQVFBQm9EVkZkRU9EaHcyN0VD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 12408.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZybhooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBncDZybnIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEUyR2dvSTcyQVFBQm9EVkZkRU9EaHcyN0VD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "深圳市",
@@ -407,7 +407,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 1 小時 55 分鐘, TPE–SZX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBsYm12GicSCjIwMjYtMTAtMDIyAkNJagwIAhIIL20vMGxibXZyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNNUdnb0kxMlVRQUJvRFZGZEVPRGh3ODhBQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBsYm12GicSCjIwMjYtMTAtMDIyAkNJagwIAhIIL20vMGxibXZyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRd0dnb0kxMlVRQUJvRFZGZEVPRGh3ODhBQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -424,10 +424,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 20 分鐘, TPE–FUK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzBncWtkGicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMGdxa2RyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRd0dnb0l6MllRQUJvRFZGZEVPRGh3N3NNQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 13144.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzBncWtkGicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMGdxa2RyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRReEdnb0l6MllRQUJvRFZGZEVPRGh3N3NNQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "廣島市",
@@ -441,10 +441,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 20 分鐘, TPE–HIJ",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBnM2N3GicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMGczY3dyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRReEdnb0l2MmdRQUJvRFZGZEVPRGh3NDhrQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 13385.0,
-      "price_drop": 10.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBnM2N3GicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMGczY3dyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRReUdnb0l2MmdRQUJvRFZGZEVPRGh3NDhrQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "東京都",
@@ -458,10 +458,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 25 分鐘, TPE–NRT",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzA3ZGZrGicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMDdkZmtyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRReUdnb0lqMndRQUJvRFZGZEVPRGh3bk5VQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 13848.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzA3ZGZrGicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMDdkZmtyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRekdnb0lqMndRQUJvRFZGZEVPRGh3bk5VQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "大阪市",
@@ -475,10 +475,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 45 分鐘, TPE–KIX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkcXl3GicSCjIwMjYtMDktMjIyAkNJagwIAhIIL20vMGRxeXdyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRekdnb0lqbThRQUJvRFZGZEVPRGh3MU40Qw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 14232.0,
-      "price_drop": 10.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkcXl3GicSCjIwMjYtMDktMjIyAkNJagwIAhIIL20vMGRxeXdyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRMEdnb0lqbThRQUJvRFZGZEVPRGh3MU40Qw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "檳城",
@@ -492,10 +492,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 4 小時 40 分鐘, TPE–PEN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBnNnhxGicSCjIwMjYtMTAtMDQyAkNJagwIAhIIL20vMGc2eHFyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRMEdnb0l1M0FRQUJvRFZGZEVPRGh3OXVJQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 14404.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBnNnhxGicSCjIwMjYtMTAtMDQyAkNJagwIAhIIL20vMGc2eHFyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRMUdnb0l1M0FRQUJvRFZGZEVPRGh3OXVJQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "登帕薩",
@@ -509,10 +509,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 5 小時 25 分鐘, TPE–DPS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTEyMgJDSWoHCAESA1RQRXINCAISCS9tLzAybmJoMRooEgoyMDI2LTEwLTIxMgJDSWoNCAISCS9tLzAybmJoMXIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEl6R2dvSW9uTVFBQm9EVkZkRU9EaHc0K3ND&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 14762.0,
-      "price_drop": 8.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTEyMgJDSWoHCAESA1RQRXINCAISCS9tLzAybmJoMRooEgoyMDI2LTEwLTIxMgJDSWoNCAISCS9tLzAybmJoMXIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEl5R2dvSW9uTVFBQm9EVkZkRU9EaHc0K3ND&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "科羅爾州",
@@ -526,10 +526,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 55 分鐘, TPE–ROR",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbmh5GicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMGZuaHlyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRMUdnb0l6WGtRQUJvRFZGZEVPRGh3NC84Qw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 15580.0,
-      "price_drop": 15.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbmh5GicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMGZuaHlyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRMkdnb0l6WGtRQUJvRFZGZEVPRGh3NC84Qw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "清邁",
@@ -543,10 +543,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 50 分鐘, TPE–CNX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzAxaHI1OBooEgoyMDI2LTA5LTE5MgJDSWoNCAISCS9tLzAxaHI1OHIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFEyR2dvSTJub1FBQm9EVkZkRU9EaHdvSU1E&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 15713.0,
-      "price_drop": 7.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzAxaHI1OBooEgoyMDI2LTA5LTE5MgJDSWoNCAISCS9tLzAxaHI1OHIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFEzR2dvSTJub1FBQm9EVkZkRU9EaHdvSU1E&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "Bandar Lampung City",
@@ -560,10 +560,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 19 小時 5 分鐘, TPE–TKG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzA1cGNodBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzA1cGNodHIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFEzR2dvSW5ud1FBQm9EVkZkRU9EaHdpNGdE&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 15911.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzA1cGNodBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzA1cGNodHIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFE0R2dvSW5ud1FBQm9EVkZkRU9EaHdpNGdE&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "Nha Trang",
@@ -577,10 +577,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 8 小時 20 分鐘, TPE–CXR",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTExLTA1MgJDSWoHCAESA1RQRXINCAISCS9tLzA0NGNqdhooEgoyMDI2LTExLTEzMgJDSWoNCAISCS9tLzA0NGNqdnIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFE0R2dvSWhuMFFBQm9EVkZkRU9EaHcwNG9E&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 16023.0,
-      "price_drop": 17.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTExLTA1MgJDSWoHCAESA1RQRXINCAISCS9tLzA0NGNqdhooEgoyMDI2LTExLTEzMgJDSWoNCAISCS9tLzA0NGNqdnIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFE1R2dvSWhuMFFBQm9EVkZkRU9EaHcwNG9E&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "奄美市",
@@ -594,10 +594,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 5 小時, TPE–ASJ",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBjeDY5NBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzBjeDY5NHIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFMUdnc0l2WVVCRUFBYUExUlhSRGc0Y0tDbEF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 17094.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBjeDY5NBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzBjeDY5NHIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFMEdnc0l2WVVCRUFBYUExUlhSRGc0Y0tDbEF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "三寶瓏",
@@ -611,10 +611,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 14 小時 25 分鐘, TPE–SRG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzA0OTZtaBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzA0OTZtaHIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRNUdnc0k2b1VCRUFBYUExUlhSRGc0Y0s2bUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 17139.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzA0OTZtaBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzA0OTZtaHIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVd0dnc0k2b1VCRUFBYUExUlhSRGc0Y0s2bUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "青島市",
@@ -628,10 +628,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 35 分鐘, TPE–TAO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTAyMgJDSWoHCAESA1RQRXINCAISCS9tLzAxbDNzMBooEgoyMDI2LTEwLTA5MgJDSWoNCAISCS9tLzAxbDNzMHIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFeEdnc0k5NFVCRUFBYUExUlhSRGc0Y05lbUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 17152.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTAyMgJDSWoHCAESA1RQRXINCAISCS9tLzAxbDNzMBooEgoyMDI2LTEwLTA5MgJDSWoNCAISCS9tLzAxbDNzMHIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFeEdnc0k5NFVCRUFBYUExUlhSRGc0Y05lbUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "日惹市",
@@ -645,10 +645,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 14 小時 50 分鐘, TPE–YIA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzBkZzZ5eBooEgoyMDI2LTA5LTIxMgJDSWoNCAISCS9tLzBkZzZ5eHIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVd0dnc0kvNFVCRUFBYUExUlhSRGc0Y1BDbUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 17160.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzBkZzZ5eBooEgoyMDI2LTA5LTIxMgJDSWoNCAISCS9tLzBkZzZ5eHIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVeEdnc0kvNFVCRUFBYUExUlhSRGc0Y1BDbUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "新山",
@@ -662,27 +662,27 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 10 小時 20 分鐘, TPE–JHB",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAyMDdzaBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAyMDdzaHIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVeEdnc0l0NGNCRUFBYUExUlhSRGc0Y0xXckF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 17350.0,
-      "price_drop": 15.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAyMDdzaBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAyMDdzaHIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVeUdnc0l0NGNCRUFBYUExUlhSRGc0Y0xXckF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "達叻",
       "country": "泰國",
       "outbound_date": "9月17日週四",
       "return_date": "9月23日週三",
-      "price": 17855.0,
+      "price": 17842.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 8 小時 50 分鐘, TPE–TDX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxdDJxMxooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAxdDJxM3IHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVeUdnc0l2NHNCRUFBYUExUlhSRGc0Y0o2NEF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "unchanged",
-      "previous_price": null,
-      "price_drop": null
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxdDJxMxooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAxdDJxM3IHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVekdnc0lzb3NCRUFBYUExUlhSRGc0Y1BXM0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "price_drop",
+      "previous_price": 17855.0,
+      "price_drop": 13.0
     },
     {
       "destination": "榮市",
@@ -696,27 +696,44 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 10 小時 55 分鐘, TPE–VII",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXINCAISCS9tLzA1M2Y2ORooEgoyMDI2LTA5LTI1MgJDSWoNCAISCS9tLzA1M2Y2OXIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVekdnc0krb3NCRUFBYUExUlhSRGc0Y05pNUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 17932.0,
-      "price_drop": 18.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXINCAISCS9tLzA1M2Y2ORooEgoyMDI2LTA5LTI1MgJDSWoNCAISCS9tLzA1M2Y2OXIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMEdnc0krb3NCRUFBYUExUlhSRGc0Y05pNUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "甲米",
       "country": "泰國",
       "outbound_date": "9月13日週日",
       "return_date": "9月19日週六",
-      "price": 17975.0,
+      "price": 17961.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 11 小時 5 分鐘, TPE–KBV",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzAxZzltZhooEgoyMDI2LTA5LTE5MgJDSWoNCAISCS9tLzAxZzltZnIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMEdnc0l0NHdCRUFBYUExUlhSRGc0Y0ptN0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "unchanged",
-      "previous_price": null,
-      "price_drop": null
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzAxZzltZhooEgoyMDI2LTA5LTE5MgJDSWoNCAISCS9tLzAxZzltZnIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMUdnc0lxWXdCRUFBYUExUlhSRGc0Y08yNkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "price_drop",
+      "previous_price": 17975.0,
+      "price_drop": 14.0
+    },
+    {
+      "destination": "古晉",
+      "country": "馬來西亞",
+      "outbound_date": "10月25日週日",
+      "return_date": "10月31日週六",
+      "price": 18295.0,
+      "original_price": 23238.0,
+      "currency": "TWD",
+      "discount_info": "比平時便宜 21%",
+      "airline": "",
+      "flight_number": "",
+      "flight_details": "轉機 1 次, 8 小時 50 分鐘, TPE–KCH",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXINCAISCS9tLzAxM185ehooEgoyMDI2LTEwLTMxMgJDSWoNCAISCS9tLzAxM185enIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJekdnc0k5NDRCRUFBYUExUlhSRGc0Y0l2REF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "price_drop",
+      "previous_price": 20309.0,
+      "price_drop": 2014.0
     },
     {
       "destination": "普吉市",
@@ -730,10 +747,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 11 小時 55 分鐘, TPE–HKT",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTExMgJDSWoHCAESA1RQRXINCAISCS9tLzBmX3IxXxooEgoyMDI2LTEwLTE3MgJDSWoNCAISCS9tLzBmX3IxX3IHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMUdnc0l4NVFCRUFBYUExUlhSRGc0Y092VUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 19028.0,
-      "price_drop": 13.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTExMgJDSWoHCAESA1RQRXINCAISCS9tLzBmX3IxXxooEgoyMDI2LTEwLTE3MgJDSWoNCAISCS9tLzBmX3IxX3IHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMkdnc0l4NVFCRUFBYUExUlhSRGc0Y092VUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "札幌市",
@@ -747,10 +764,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 4 小時, TPE–CTS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDVsNhooEgoyMDI2LTEwLTA3MgJDSWoNCAISCS9tLzBncDVsNnIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMkdnc0kwcFFCRUFBYUExUlhSRGc0Y0k3VkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 19036.0,
-      "price_drop": 10.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDVsNhooEgoyMDI2LTEwLTA3MgJDSWoNCAISCS9tLzBncDVsNnIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVM0dnc0kwcFFCRUFBYUExUlhSRGc0Y0k3VkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "武漢市",
@@ -764,10 +781,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 20 分鐘, TPE–WUH",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBsM2N5GicSCjIwMjYtMTAtMDgyAkNJagwIAhIIL20vMGwzY3lyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURXlHZ3NJbDVvQkVBQWFBMVJYUkRnNGNNdm1Bdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 19744.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBsM2N5GicSCjIwMjYtMTAtMDgyAkNJagwIAhIIL20vMGwzY3lyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURXlHZ3NJbDVvQkVBQWFBMVJYUkRnNGNNdm1Bdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "泗水",
@@ -781,44 +798,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 10 小時 10 分鐘, TPE–SUB",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI0MgJDSWoHCAESA1RQRXINCAISCS9tLzAxZjR4ZBooEgoyMDI2LTEwLTMwMgJDSWoNCAISCS9tLzAxZjR4ZHIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVM0dnc0k1NTBCRUFBYUExUlhSRGc0Y0lUeUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 20207.0,
-      "price_drop": 8.0
-    },
-    {
-      "destination": "古晉",
-      "country": "馬來西亞",
-      "outbound_date": "10月19日週一",
-      "return_date": "10月25日週日",
-      "price": 20309.0,
-      "original_price": null,
-      "currency": "TWD",
-      "discount_info": "",
-      "airline": "",
-      "flight_number": "",
-      "flight_details": "轉機 1 次, 8 小時 30 分鐘, TPE–KCH",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzAxM185ehooEgoyMDI2LTEwLTI1MgJDSWoNCAISCS9tLzAxM185enIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVNEdnc0kxWjRCRUFBYUExUlhSRGc0Y04vMEF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 20324.0,
-      "price_drop": 15.0
-    },
-    {
-      "destination": "閣沙梅島",
-      "country": "泰國",
-      "outbound_date": "9月14日週一",
-      "return_date": "9月23日週三",
-      "price": 20530.0,
-      "original_price": null,
-      "currency": "TWD",
-      "discount_info": "",
-      "airline": "",
-      "flight_number": "",
-      "flight_details": "轉機 1 次, 10 小時 35 分鐘, TPE–USM",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXINCAISCS9tLzAzM2NzdhooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAzM2NzdnIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVNUdnc0lzcUFCRUFBYUExUlhSRGc0Y0pqNkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 20543.0,
-      "price_drop": 13.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI0MgJDSWoHCAESA1RQRXINCAISCS9tLzAxZjR4ZBooEgoyMDI2LTEwLTMwMgJDSWoNCAISCS9tLzAxZjR4ZHIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVNEdnc0k1NTBCRUFBYUExUlhSRGc0Y0lUeUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "出雲市",
@@ -832,10 +815,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 10 小時 55 分鐘, TPE–IZO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxeDgwcBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzAxeDgwcHIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJd0dnc0l2YUVCRUFBYUExUlhSRGc0Y00vOUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 20678.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxeDgwcBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzAxeDgwcHIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFNUdnc0l2YUVCRUFBYUExUlhSRGc0Y00vOUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "德島市",
@@ -849,10 +832,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 11 小時 30 分鐘, TPE–TKS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZyNRooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBncDZyNXIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZd0dnc0l2YUVCRUFBYUExUlhSRGc0Y00vOUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 20678.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZyNRooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBncDZyNXIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVNUdnc0l2YUVCRUFBYUExUlhSRGc0Y00vOUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "北乾巴魯",
@@ -866,10 +849,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 15 小時 20 分鐘, TPE–PKU",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAzYmNycBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAzYmNycHIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZeEdnc0l3NkVCRUFBYUExUlhSRGc0Y09MOUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 20684.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAzYmNycBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAzYmNycHIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZd0dnc0l3NkVCRUFBYUExUlhSRGc0Y09MOUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "錫江",
@@ -883,10 +866,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 13 小時 40 分鐘, TPE–UPG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAyMmg0NxooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAyMmg0N3IHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZeUdnc0k1NjBCRUFBYUExUlhSRGc0Y01Pa0JBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 22256.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAyMmg0NxooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAyMmg0N3IHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZeEdnc0k1NjBCRUFBYUExUlhSRGc0Y01Pa0JBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "棉蘭",
@@ -900,10 +883,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 17 小時 35 分鐘, TPE–KNO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzAxX2RfbhooEgoyMDI2LTA5LTIxMgJDSWoNCAISCS9tLzAxX2RfbnIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZekdnc0k5YTBCRUFBYUExUlhSRGc0Y08ra0JBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 22270.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzAxX2RfbhooEgoyMDI2LTA5LTIxMgJDSWoNCAISCS9tLzAxX2RfbnIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZeUdnc0k5YTBCRUFBYUExUlhSRGc0Y08ra0JBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "巴里巴伴",
@@ -917,10 +900,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 12 小時 10 分鐘, TPE–BPN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXINCAISCS9tLzAybGI2eBooEgoyMDI2LTA5LTIxMgJDSWoNCAISCS9tLzAybGI2eHIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZMEdnc0loN2tCRUFBYUExUlhSRGc0Y0lUSUJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 23696.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXINCAISCS9tLzAybGI2eBooEgoyMDI2LTA5LTIxMgJDSWoNCAISCS9tLzAybGI2eHIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZekdnc0loN2tCRUFBYUExUlhSRGc0Y0lUSUJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "西雅圖",
@@ -934,10 +917,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 11 小時 15 分鐘, TPE–SEA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkOWpyGicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMGQ5anJyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUWTFHZ3NJdzhBQkVBQWFBMVJYUkRnNGNNM2ZCQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 24663.0,
-      "price_drop": 20.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkOWpyGicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMGQ5anJyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUWTBHZ3NJdzhBQkVBQWFBMVJYUkRnNGNNM2ZCQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "舊金山",
@@ -951,10 +934,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 12 小時, TPE–SFO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkNmxwGicSCjIwMjYtMDktMjAyAkNJagwIAhIIL20vMGQ2bHByBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUWTJHZ3NJeWNNQkVBQWFBMVJYUkRnNGNKenBCQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 25053.0,
-      "price_drop": 20.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkNmxwGicSCjIwMjYtMDktMjAyAkNJagwIAhIIL20vMGQ2bHByBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUWTFHZ3NJeWNNQkVBQWFBMVJYUkRnNGNKenBCQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "大空町",
@@ -968,10 +951,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 9 小時 20 分鐘, TPE–MMB",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXINCAISCS9tLzBoMHI1dhooEgoyMDI2LTA5LTIwMgJDSWoNCAISCS9tLzBoMHI1dnIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZM0dnc0krOFFCRUFBYUExUlhSRGc0Y003dEJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 25220.0,
-      "price_drop": 9.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXINCAISCS9tLzBoMHI1dhooEgoyMDI2LTA5LTIwMgJDSWoNCAISCS9tLzBoMHI1dnIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZMkdnc0krOFFCRUFBYUExUlhSRGc0Y003dEJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "鳳凰城",
@@ -985,27 +968,27 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 12 小時 30 分鐘, TPE–PHX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkMzV5GicSCjIwMjYtMDktMjcyAkNJagwIAhIIL20vMGQzNXlyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFYUN3amh6d0VRQUJvRFZGZEVPRGh3MTQ4Rg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 26613.0,
-      "price_drop": 20.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkMzV5GicSCjIwMjYtMDktMjcyAkNJagwIAhIIL20vMGQzNXlyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFYUN3amh6d0VRQUJvRFZGZEVPRGh3MTQ4Rg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "洛杉磯",
       "country": "美國",
       "outbound_date": "9月13日週日",
       "return_date": "9月20日週日",
-      "price": 27003.0,
+      "price": 26983.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 12 小時 45 分鐘, TPE–LAX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhopEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIOCAISCi9tLzAzMHFiM3QaKRIKMjAyNi0wOS0yMDICQ0lqDggCEgovbS8wMzBxYjN0cgcIARIDVFBFUgNUV0R6gAFDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFk0R2dzSSs5SUJFQUFhQTFSWFJEZzRjT1daQlE9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "unchanged",
-      "previous_price": null,
-      "price_drop": null
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhopEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIOCAISCi9tLzAzMHFiM3QaKRIKMjAyNi0wOS0yMDICQ0lqDggCEgovbS8wMzBxYjN0cgcIARIDVFBFUgNUV0R6gAFDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFkzR2dzSTU5SUJFQUFhQTFSWFJEZzRjS2FaQlE9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "price_drop",
+      "previous_price": 27003.0,
+      "price_drop": 20.0
     },
     {
       "destination": "布里斯班",
@@ -1019,10 +1002,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 8 小時 40 分鐘, TPE–BNE",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzAxYjhqahooEgoyMDI2LTEwLTI1MgJDSWoNCAISCS9tLzAxYjhqanIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJeEdnc0luTmNCRUFBYUExUlhSRGc0Y0oybkJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 27559.0,
-      "price_drop": 11.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzAxYjhqahooEgoyMDI2LTEwLTI1MgJDSWoNCAISCS9tLzAxYjhqanIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJd0dnc0luTmNCRUFBYUExUlhSRGc0Y0oybkJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "奧克蘭",
@@ -1036,24 +1019,41 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 14 小時 5 分鐘, TPE–AKL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxMnRzGicSCjIwMjYtMTAtMjcyAkNJagwIAhIIL20vMDEydHNyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURXdHZ3NJbmRzQkVBQWFBMVJYUkRnNGNQQ3pCUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 28078.0,
-      "price_drop": 17.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxMnRzGicSCjIwMjYtMTAtMjcyAkNJagwIAhIIL20vMDEydHNyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURXdHZ3NJbmRzQkVBQWFBMVJYUkRnNGNQQ3pCUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "墨爾本",
       "country": "澳洲",
       "outbound_date": "10月26日週一",
       "return_date": "11月4日週三",
-      "price": 28955.0,
+      "price": 28942.0,
       "original_price": 45442.0,
       "currency": "TWD",
       "discount_info": "比平時便宜 36%",
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 9 小時 20 分鐘, TPE–MEL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXINCAISCS9tLzBjaGd6bRooEgoyMDI2LTExLTA0MgJDSWoNCAISCS9tLzBjaGd6bXIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVFVhQ3dpYjRnRVFBQm9EVkZkRU9EaHc5c2tG&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXINCAISCS9tLzBjaGd6bRooEgoyMDI2LTExLTA0MgJDSWoNCAISCS9tLzBjaGd6bXIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVFVhQ3dpTzRnRVFBQm9EVkZkRU9EaHd6Y2tG&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "price_drop",
+      "previous_price": 28955.0,
+      "price_drop": 13.0
+    },
+    {
+      "destination": "閣沙梅島",
+      "country": "泰國",
+      "outbound_date": "9月14日週一",
+      "return_date": "9月23日週三",
+      "price": 28949.0,
+      "original_price": null,
+      "currency": "TWD",
+      "discount_info": "",
+      "airline": "",
+      "flight_number": "",
+      "flight_details": "轉機 1 次, 8 小時 5 分鐘, TPE–USM",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXINCAISCS9tLzAzM2NzdhooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAzM2NzdnIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZNEdnc0lsZUlCRUFBYUExUlhSRGc0Y09QSkJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1070,10 +1070,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 9 小時 25 分鐘, TPE–SYD",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzA2eTU3GicSCjIwMjYtMTAtMzEyAkNJagwIAhIIL20vMDZ5NTdyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZYUN3alM0Z0VRQUJvRFZGZEVPRGh3bzhzRg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 29021.0,
-      "price_drop": 11.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzA2eTU3GicSCjIwMjYtMTAtMzEyAkNJagwIAhIIL20vMDZ5NTdyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZYUN3alM0Z0VRQUJvRFZGZEVPRGh3bzhzRg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "怡朗市",
@@ -1087,16 +1087,16 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 5 小時 10 分鐘, TPE–ILO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzA0d2RiMRooEgoyMDI2LTA5LTE5MgJDSWoNCAISCS9tLzA0d2RiMXIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZNUdnc0k3dTRCRUFBYUExUlhSRGc0Y092eEJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 30591.0,
-      "price_drop": 17.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXINCAISCS9tLzA0d2RiMRooEgoyMDI2LTA5LTE5MgJDSWoNCAISCS9tLzA0d2RiMXIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZNUdnc0k3dTRCRUFBYUExUlhSRGc0Y092eEJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "達沃市",
       "country": "菲律賓",
-      "outbound_date": "1月31日週日",
-      "return_date": "2月6日週六",
+      "outbound_date": "2月28日週日",
+      "return_date": "3月6日週六",
       "price": 30756.0,
       "original_price": null,
       "currency": "TWD",
@@ -1104,7 +1104,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 6 小時 50 分鐘, TPE–DVO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI3LTAxLTMxMgJDSWoHCAESA1RQRXINCAISCS9tLzAyZ24xeBooEgoyMDI3LTAyLTA2MgJDSWoNCAISCS9tLzAyZ24xeHIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRjd0dnc0lwUEFCRUFBYUExUlhSRGc0Y0tyMkJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI3LTAyLTI4MgJDSWoHCAESA1RQRXINCAISCS9tLzAyZ24xeBooEgoyMDI3LTAzLTA2MgJDSWoNCAISCS9tLzAyZ24xeHIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRjd0dnc0lwUEFCRUFBYUExUlhSRGc0Y0tyMkJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1121,10 +1121,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 10 小時 25 分鐘, TPE–YVR",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzA4MGgyGicSCjIwMjYtMTEtMDEyAkNJagwIAhIIL20vMDgwaDJyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3hHZ3NJb2ZVQkVBQWFBMVJYUkRnNGNJU0dCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 31414.0,
-      "price_drop": 21.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzA4MGgyGicSCjIwMjYtMTEtMDEyAkNJagwIAhIIL20vMDgwaDJyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3hHZ3NJb2ZVQkVBQWFBMVJYUkRnNGNJU0dCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "聖地亞哥",
@@ -1138,10 +1138,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 20 分鐘, TPE–SAN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzA3MXZyGicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMDcxdnJyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3lHZ3NJdW9VQ0VBQWFBMVJYUkRnNGNKSzVCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 33486.0,
-      "price_drop": 20.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzA3MXZyGicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMDcxdnJyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3lHZ3NJdW9VQ0VBQWFBMVJYUkRnNGNKSzVCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "羅馬",
@@ -1155,10 +1155,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 14 小時 40 分鐘, TPE–FCO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTA3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA2YzYyGicSCjIwMjYtMTEtMTUyAkNJagwIAhIIL20vMDZjNjJyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3pHZ3NJeG9nQ0VBQWFBMVJYUkRnNGNQVENCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 33878.0,
-      "price_drop": 16.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTA3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA2YzYyGicSCjIwMjYtMTEtMTUyAkNJagwIAhIIL20vMDZjNjJyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3pHZ3NJeG9nQ0VBQWFBMVJYUkRnNGNQVENCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "阿姆斯特丹",
@@ -1172,27 +1172,27 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 15 小時 35 分鐘, TPE–AMS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTExLTE5MgJDSWoHCAESA1RQRXILCAISBy9tLzBrM3AaJhIKMjAyNi0xMS0yNTICQ0lqCwgCEgcvbS8wazNwcgcIARIDVFBFUgNUV0R6gAFDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVGMwR2dzSStJMENFQUFhQTFSWFJEZzRjUGJUQmc9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 34572.0,
-      "price_drop": 20.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTExLTE5MgJDSWoHCAESA1RQRXILCAISBy9tLzBrM3AaJhIKMjAyNi0xMS0yNTICQ0lqCwgCEgcvbS8wazNwcgcIARIDVFBFUgNUV0R6gAFDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVGMwR2dzSStJMENFQUFhQTFSWFJEZzRjUGJUQmc9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "聖荷西",
       "country": "美國",
       "outbound_date": "9月14日週一",
       "return_date": "9月20日週日",
-      "price": 34747.0,
+      "price": 34727.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 55 分鐘, TPE–SJC",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMDR2GicSCjIwMjYtMDktMjAyAkNJagwIAhIIL20vMGYwNHZyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzFHZ3NJdTQ4Q0VBQWFBMVJYUkRnNGNOM1lCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "unchanged",
-      "previous_price": null,
-      "price_drop": null
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMDR2GicSCjIwMjYtMDktMjAyAkNJagwIAhIIL20vMGYwNHZyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzFHZ3NJcDQ4Q0VBQWFBMVJYUkRnNGNKN1lCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "price_drop",
+      "previous_price": 34747.0,
+      "price_drop": 20.0
     },
     {
       "destination": "布拉格",
@@ -1206,16 +1206,16 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 13 小時 15 分鐘, TPE–PRG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzA1eXdnGicSCjIwMjYtMTAtMDcyAkNJagwIAhIIL20vMDV5d2dyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRnYUN3andqd0lRQUJvRFZGZEVPRGh3aE5vRw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 34816.0,
-      "price_drop": 16.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzA1eXdnGicSCjIwMjYtMTAtMDcyAkNJagwIAhIIL20vMDV5d2dyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRnYUN3andqd0lRQUJvRFZGZEVPRGh3aE5vRw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "卡加利",
       "country": "加拿大",
-      "outbound_date": "11月16日週一",
-      "return_date": "11月23日週一",
+      "outbound_date": "11月26日週四",
+      "return_date": "12月5日週六",
       "price": 34853.0,
       "original_price": null,
       "currency": "TWD",
@@ -1223,10 +1223,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 13 小時 25 分鐘, TPE–YYC",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTE2MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxcjMyGicSCjIwMjYtMTEtMjMyAkNJagwIAhIIL20vMDFyMzJyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzNHZ3NJcFpBQ0VBQWFBMVJYUkRnNGNLemJCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 34875.0,
-      "price_drop": 22.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxcjMyGicSCjIwMjYtMTItMDUyAkNJagwIAhIIL20vMDFyMzJyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzNHZ3NJcFpBQ0VBQWFBMVJYUkRnNGNLemJCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "愛德蒙頓",
@@ -1240,10 +1240,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 15 小時 9 分鐘, TPE–YEG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTIyMgJDSWoHCAESA1RQRXIMCAISCC9tLzBubGg3GicSCjIwMjYtMTAtMjkyAkNJagwIAhIIL20vMG5saDdyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzJHZ3NJcFpBQ0VBQWFBMVJYUkRnNGNLemJCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 34875.0,
-      "price_drop": 22.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTIyMgJDSWoHCAESA1RQRXIMCAISCC9tLzBubGg3GicSCjIwMjYtMTAtMjkyAkNJagwIAhIIL20vMG5saDdyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzJHZ3NJcFpBQ0VBQWFBMVJYUkRnNGNLemJCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "維也納",
@@ -1257,10 +1257,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 14 小時 15 分鐘, TPE–VIE",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmaHA5GicSCjIwMjYtMTEtMDUyAkNJagwIAhIIL20vMGZocDlyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRrYUN3amprQUlRQUJvRFZGZEVPRGh3Nzl3Rw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 34933.0,
-      "price_drop": 18.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmaHA5GicSCjIwMjYtMTEtMDUyAkNJagwIAhIIL20vMGZocDlyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRrYUN3amprQUlRQUJvRFZGZEVPRGh3Nzl3Rw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "邁阿密",
@@ -1274,10 +1274,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 29 小時 46 分鐘, TPE–MIA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMnYwGicSCjIwMjYtMDktMTkyAkNJagwIAhIIL20vMGYydjByBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzRHZ3NJbEprQ0VBQWFBMVJYUkRnNGNLcjNCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 36008.0,
-      "price_drop": 20.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMnYwGicSCjIwMjYtMDktMTkyAkNJagwIAhIIL20vMGYydjByBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzRHZ3NJbEprQ0VBQWFBMVJYUkRnNGNLcjNCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "薩克拉門托",
@@ -1291,10 +1291,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 23 小時 47 分鐘, TPE–SMF",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzA3YmNuGicSCjIwMjYtMDktMTkyAkNJagwIAhIIL20vMDdiY25yBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzVHZ3NJZ2FNQ0VBQWFBMVJYUkRnNGNMV1dCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 37269.0,
-      "price_drop": 20.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTEzMgJDSWoHCAESA1RQRXIMCAISCC9tLzA3YmNuGicSCjIwMjYtMDktMTkyAkNJagwIAhIIL20vMDdiY25yBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzVHZ3NJZ2FNQ0VBQWFBMVJYUkRnNGNMV1dCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "紐約",
@@ -1308,9 +1308,26 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 15 小時, TPE–JFK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAyXzI4NhooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAyXzI4NnIHCAESA1RQRVIDVFdEeoABQ2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRnd0dnc0k3YVlDRUFBYUExUlhSRGc0Y01haUJ3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAyXzI4NhooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAyXzI4NnIHCAESA1RQRVIDVFdEeoABQ2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRnd0dnc0k3YVlDRUFBYUExUlhSRGc0Y01haUJ3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
+    },
+    {
+      "destination": "聖安東尼奧",
+      "country": "美國",
+      "outbound_date": "9月14日週一",
+      "return_date": "9月20日週日",
+      "price": 38006.0,
+      "original_price": null,
+      "currency": "TWD",
+      "discount_info": "",
+      "airline": "",
+      "flight_number": "",
+      "flight_details": "轉機 1 次, 27 小時 59 分鐘, TPE–SAT",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMncwGicSCjIwMjYtMDktMjAyAkNJagwIAhIIL20vMGYydzByBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3hHZ3NJOXFnQ0VBQWFBMVJYUkRnNGNJcXBCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "price_drop",
-      "previous_price": 37761.0,
+      "previous_price": 38026.0,
       "price_drop": 20.0
     },
     {
@@ -1325,24 +1342,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 15 小時, TPE–FRA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzAyejBqGicSCjIwMjYtMTEtMDMyAkNJagwIAhIIL20vMDJ6MGpyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURTRHZ3NJK0tnQ0VBQWFBMVJYUkRnNGNKR3BCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 38032.0,
-      "price_drop": 24.0
-    },
-    {
-      "destination": "聖安東尼奧",
-      "country": "美國",
-      "outbound_date": "9月14日週一",
-      "return_date": "9月20日週日",
-      "price": 38026.0,
-      "original_price": null,
-      "currency": "TWD",
-      "discount_info": "",
-      "airline": "",
-      "flight_number": "",
-      "flight_details": "轉機 1 次, 27 小時 59 分鐘, TPE–SAT",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMncwGicSCjIwMjYtMDktMjAyAkNJagwIAhIIL20vMGYydzByBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3hHZ3NJaXFrQ0VBQWFBMVJYUkRnNGNNcXBCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzAyejBqGicSCjIwMjYtMTEtMDMyAkNJagwIAhIIL20vMDJ6MGpyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURTNHZ3NJK0tnQ0VBQWFBMVJYUkRnNGNKR3BCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1352,17 +1352,17 @@
       "country": "英國",
       "outbound_date": "10月5日週一",
       "return_date": "10月13日週二",
-      "price": 38243.0,
+      "price": 39107.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 15 小時 10 分鐘, TPE–LHR",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTA1MgJDSWoHCAESA1RQRXIMCAISCC9tLzA0anBsGicSCjIwMjYtMTAtMTMyAkNJagwIAhIIL20vMDRqcGxyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3lHZ3NJNDZvQ0VBQWFBMVJYUkRnNGNQYXVCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 38269.0,
-      "price_drop": 26.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTA1MgJDSWoHCAESA1RQRXIMCAISCC9tLzA0anBsGicSCjIwMjYtMTAtMTMyAkNJagwIAhIIL20vMDRqcGxyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3lHZ3NJdzdFQ0VBQWFBMVJYUkRnNGNKM0VCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "基督城",
@@ -1376,27 +1376,27 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 19 小時 9 分鐘, TPE–CHC",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXINCAISCS9tLzAyeWM1YhooEgoyMDI2LTExLTA0MgJDSWoNCAISCS9tLzAyeWM1YnIHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVE1hQ3dpTHNnSVFBQm9EVkZkRU9EaHdnTVlI&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 39206.0,
-      "price_drop": 27.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXINCAISCS9tLzAyeWM1YhooEgoyMDI2LTExLTA0MgJDSWoNCAISCS9tLzAyeWM1YnIHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVE1hQ3dpTHNnSVFBQm9EVkZkRU9EaHdnTVlI&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "威靈頓",
       "country": "紐西蘭",
       "outbound_date": "10月26日週一",
       "return_date": "11月2日週一",
-      "price": 40678.0,
+      "price": 40649.0,
       "original_price": 66114.0,
       "currency": "TWD",
-      "discount_info": "比平時便宜 38%",
+      "discount_info": "比平時便宜 39%",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 19 小時, TPE–WLG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzA4NTNnGicSCjIwMjYtMTEtMDIyAkNJagwIAhIIL20vMDg1M2dyBwgBEgNUUEVSA1RXRHp8Q2pSSWMyWjFlRWRTTkhGVVowVkJUalJxTjBGQ1J5MHRMUzB0TFMxMFluVm9NUzF1TWtGQlFVRkJSM0ZsTjNjMFEwMDRTa1ZCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRYUN3am12UUlRQUJvRFZGZEVPRGh3KytvSA&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "unchanged",
-      "previous_price": null,
-      "price_drop": null
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzA4NTNnGicSCjIwMjYtMTEtMDIyAkNJagwIAhIIL20vMDg1M2dyBwgBEgNUUEVSA1RXRHp8Q2pSSVJXOW1lSEo0YlV4SldYZEJRV0UxVEVGQ1J5MHRMUzB0TFMwdExTMTBiR3hvTlVGQlFVRkJSM0ZtVVdaM1JtTkdkR05CRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRYUN3akp2UUlRQUJvRFZGZEVPRGh3b09vSA&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "price_drop",
+      "previous_price": 40678.0,
+      "price_drop": 29.0
     },
     {
       "destination": "阿德萊德",
@@ -1410,7 +1410,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 17 小時 55 分鐘, TPE–ADL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTExLTMwMgJDSWoHCAESA1RQRXILCAISBy9tLzBtZ3AaJhIKMjAyNi0xMi0wODICQ0lqCwgCEgcvbS8wbWdwcgcIARIDVFBFUgNUV0R6gAFDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEl5R2dzSTBiNENFQUFhQTFSWFJEZzRjTTN0Qnc9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTExLTMwMgJDSWoHCAESA1RQRXILCAISBy9tLzBtZ3AaJhIKMjAyNi0xMi0wODICQ0lqCwgCEgcvbS8wbWdwcgcIARIDVFBFUgNUV0R6gAFDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEl4R2dzSTBiNENFQUFhQTFSWFJEZzRjTTN0Qnc9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1427,44 +1427,61 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 16 小時 15 分鐘, TPE–ZQN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXINCAISCS9tLzAxN2NmNxooEgoyMDI2LTExLTA0MgJDSWoNCAISCS9tLzAxN2NmN3IHCAESA1RQRVIDVFdEenxDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVGNhQ3dpdnh3SVFBQm9EVkZkRU9EaHdsWWtJ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 41930.0,
-      "price_drop": 27.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXINCAISCS9tLzAxN2NmNxooEgoyMDI2LTExLTA0MgJDSWoNCAISCS9tLzAxN2NmN3IHCAESA1RQRVIDVFdEenxDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVGNhQ3dpdnh3SVFBQm9EVkZkRU9EaHdsWWtJ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "多倫多",
       "country": "加拿大",
       "outbound_date": "10月22日週四",
-      "return_date": "10月29日週四",
-      "price": 43757.0,
+      "return_date": "10月31日週六",
+      "price": 42287.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 18 小時 35 分鐘, TPE–YYZ",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTIyMgJDSWoHCAESA1RQRXIMCAISCC9tLzBoN2g2GicSCjIwMjYtMTAtMjkyAkNJagwIAhIIL20vMGg3aDZyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3pHZ3NJN2RVQ0VBQWFBMVJYUkRnNGNQRzJDQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTIyMgJDSWoHCAESA1RQRXIMCAISCC9tLzBoN2g2GicSCjIwMjYtMTAtMzEyAkNJagwIAhIIL20vMGg3aDZyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3pHZ3NJcjhvQ0VBQWFBMVJYUkRnNGNOR1NDQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "price_drop",
-      "previous_price": 43779.0,
-      "price_drop": 22.0
+      "previous_price": 43757.0,
+      "price_drop": 1470.0
     },
     {
       "destination": "馬德里",
       "country": "西班牙",
-      "outbound_date": "10月18日週日",
-      "return_date": "10月24日週六",
-      "price": 46875.0,
+      "outbound_date": "11月19日週四",
+      "return_date": "11月28日週六",
+      "price": 45675.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
-      "flight_details": "轉機 1 次, 20 小時 50 分鐘, TPE–MAD",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzA1Nl95GicSCjIwMjYtMTAtMjQyAkNJagwIAhIIL20vMDU2X3lyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzBHZ3NJbSs0Q0VBQWFBMVJYUkRnNGNPR0RDUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "flight_details": "轉機 1 次, 22 小時, TPE–MAD",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzA1Nl95GicSCjIwMjYtMTEtMjgyAkNJagwIAhIIL20vMDU2X3lyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzBHZ3NJNitRQ0VBQWFBMVJYUkRnNGNKYm1DQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "price_drop",
-      "previous_price": 46898.0,
-      "price_drop": 23.0
+      "previous_price": 46875.0,
+      "price_drop": 1200.0
+    },
+    {
+      "destination": "巴塞隆拿",
+      "country": "西班牙",
+      "outbound_date": "12月3日週四",
+      "return_date": "12月11日週五",
+      "price": 48198.0,
+      "original_price": null,
+      "currency": "TWD",
+      "discount_info": "",
+      "airline": "",
+      "flight_number": "",
+      "flight_details": "轉機 1 次, 24 小時 50 分鐘, TPE–BCN",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEyLTAzMgJDSWoHCAESA1RQRXIMCAISCC9tLzAxZjYyGicSCjIwMjYtMTItMTEyAkNJagwIAhIIL20vMDFmNjJyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzFHZ3NJeHZnQ0VBQWFBMVJYUkRnNGNMQ2tDUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "曼徹斯特",
@@ -1478,7 +1495,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 18 小時 50 分鐘, TPE–MAN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEyLTIwMgJDSWoHCAESA1RQRXIMCAISCC9tLzA1MmJ3GicSCjIwMjYtMTItMjkyAkNJagwIAhIIL20vMDUyYndyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzFHZ3NJL1BrQ0VBQWFBMVJYUkRnNGNPK29DUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEyLTIwMgJDSWoHCAESA1RQRXIMCAISCC9tLzA1MmJ3GicSCjIwMjYtMTItMjkyAkNJagwIAhIIL20vMDUyYndyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzJHZ3NJL1BrQ0VBQWFBMVJYUkRnNGNPK29DUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1488,17 +1505,17 @@
       "country": "芬蘭",
       "outbound_date": "10月22日週四",
       "return_date": "10月28日週三",
-      "price": 50174.0,
+      "price": 50150.0,
       "original_price": 67377.0,
       "currency": "TWD",
       "discount_info": "比平時便宜 26%",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 19 小時 15 分鐘, TPE–HEL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTIyMgJDSWoHCAESA1RQRXIMCAISCC9tLzAza2huGicSCjIwMjYtMTAtMjgyAkNJagwIAhIIL20vMDNraG5yBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURTJHZ3NJL29jREVBQWFBMVJYUkRnNGNJM1ZDUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "unchanged",
-      "previous_price": null,
-      "price_drop": null
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTIyMgJDSWoHCAESA1RQRXIMCAISCC9tLzAza2huGicSCjIwMjYtMTAtMjgyAkNJagwIAhIIL20vMDNraG5yBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURTFHZ3NJNW9jREVBQWFBMVJYUkRnNGNNSFVDUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "price_drop",
+      "previous_price": 50174.0,
+      "price_drop": 24.0
     },
     {
       "destination": "拉斯維加斯",
@@ -1512,7 +1529,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 19 分鐘, TPE–LAS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEyLTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBjdjN3GicSCjIwMjYtMTItMjcyAkNJagwIAhIIL20vMGN2M3dyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzJHZ3NJa3RjREVBQWFBMVJYUkRnNGNQWE9Ddz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEyLTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBjdjN3GicSCjIwMjYtMTItMjcyAkNJagwIAhIIL20vMGN2M3dyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzNHZ3NJa3RjREVBQWFBMVJYUkRnNGNQWE9Ddz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1529,10 +1546,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 50 分鐘, TPE–DFW",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMnJxGicSCjIwMjYtMTAtMjQyAkNJagwIAhIIL20vMGYycnFyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzNHZ3NJbFBBREVBQWFBMVJYUkRnNGNPNmREQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 63528.0,
-      "price_drop": 20.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMnJxGicSCjIwMjYtMTAtMjQyAkNJagwIAhIIL20vMGYycnFyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzRHZ3NJbFBBREVBQWFBMVJYUkRnNGNPNmREQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "丹佛",
@@ -1546,44 +1563,44 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 32 分鐘, TPE–DEN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzAyY2wxGicSCjIwMjYtMDktMjAyAkNJagwIAhIIL20vMDJjbDFyBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzRHZ3NJay9JREVBQWFBMVJYUkRnNGNKT2tEQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 63783.0,
-      "price_drop": 20.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzAyY2wxGicSCjIwMjYtMDktMjAyAkNJagwIAhIIL20vMDJjbDFyBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzVHZ3NJay9JREVBQWFBMVJYUkRnNGNKT2tEQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "納什維爾",
       "country": "美國",
       "outbound_date": "9月14日週一",
       "return_date": "9月21日週一",
-      "price": 69147.0,
+      "price": 69127.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 54 分鐘, TPE–BNA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzA1amJuGicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMDVqYm5yBwgBEgNUUEVSA1RXRHqAAUNqUkljMloxZUVkU05IRlVaMFZCVGpScU4wRkNSeTB0TFMwdExTMTBZblZvTVMxdU1rRkJRVUZCUjNGbE4zYzBRMDA0U2tWQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzVHZ3NJbTV3RUVBQWFBMVJYUkRnNGNQT29EUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "unchanged",
-      "previous_price": null,
-      "price_drop": null
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXIMCAISCC9tLzA1amJuGicSCjIwMjYtMDktMjEyAkNJagwIAhIIL20vMDVqYm5yBwgBEgNUUEVSA1RXRHqAAUNqUklSVzltZUhKNGJVeEpXWGRCUVdFMVRFRkNSeTB0TFMwdExTMHRMUzEwYkd4b05VRkJRVUZCUjNGbVVXWjNSbU5HZEdOQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUa3dHZ3NJaDV3RUVBQWFBMVJYUkRnNGNMU29EUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "price_drop",
+      "previous_price": 69147.0,
+      "price_drop": 20.0
     },
     {
       "destination": "奧斯汀",
       "country": "美國",
       "outbound_date": "9月14日週一",
       "return_date": "9月22日週二",
-      "price": 69658.0,
+      "price": 69638.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 45 分鐘, TPE–AUS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXILCAISBy9tLzB2em0aJhIKMjAyNi0wOS0yMjICQ0lqCwgCEgcvbS8wdnptcgcIARIDVFBFUgNUV0R6gAFDalJJYzJaMWVFZFNOSEZVWjBWQlRqUnFOMEZDUnkwdExTMHRMUzEwWW5Wb01TMXVNa0ZCUVVGQlIzRmxOM2MwUTAwNFNrVkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVGt3R2dzSW1xQUVFQUFhQTFSWFJEZzRjTUMxRFE9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "unchanged",
-      "previous_price": null,
-      "price_drop": null
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTA5LTE0MgJDSWoHCAESA1RQRXILCAISBy9tLzB2em0aJhIKMjAyNi0wOS0yMjICQ0lqCwgCEgcvbS8wdnptcgcIARIDVFBFUgNUV0R6gAFDalJJUlc5bWVISjRiVXhKV1hkQlFXRTFURUZDUnkwdExTMHRMUzB0TFMxMGJHeG9OVUZCUVVGQlIzRm1VV1ozUm1OR2RHTkJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVGt4R2dzSWhxQUVFQUFhQTFSWFJEZzRjSUcxRFE9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "price_drop",
+      "previous_price": 69658.0,
+      "price_drop": 20.0
     }
   ]
 }
