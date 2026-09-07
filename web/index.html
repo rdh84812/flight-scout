@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Google Flights AI 當日華航低價候選報告">
+  <meta name="color-scheme" content="light dark">
+  <title>Flight Scout｜今日折扣航班</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">跳至航班結果</a>
+  <header class="masthead">
+    <div class="brand" aria-label="Flight Scout">
+      <span class="brand-mark" aria-hidden="true">FS</span>
+      <div><strong>Flight Scout</strong><span>Google Flights AI 低價候選</span></div>
+    </div>
+    <div class="report-meta"><span class="live-dot" aria-hidden="true"></span><span id="generatedAt">載入報告中</span></div>
+  </header>
+
+  <main>
+    <section class="overview" aria-labelledby="pageTitle">
+      <div class="title-block">
+        <p class="eyebrow">TODAY'S FARE BOARD</p>
+        <h1 id="pageTitle">今日折扣航班</h1>
+        <p id="promptText" class="prompt"></p>
+      </div>
+      <div class="summary-grid" aria-label="報告摘要">
+        <article><span>最低來回價</span><strong id="lowestPrice">—</strong></article>
+        <article><span>候選航班</span><strong id="totalDeals">—</strong></article>
+        <article><span>新發現／降價</span><strong id="changedDeals">—</strong></article>
+        <article><span>涵蓋地區</span><strong id="countryCount">—</strong></article>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="篩選與排序">
+      <label class="search-field">
+        <span>搜尋目的地</span>
+        <input id="searchInput" type="search" placeholder="輸入城市、國家或航線" autocomplete="off">
+      </label>
+      <label><span>地區</span><select id="countryFilter"><option value="">全部地區</option></select></label>
+      <label><span>狀態</span><select id="statusFilter"><option value="">全部狀態</option><option value="new">新發現</option><option value="price_drop">價格下降</option><option value="unchanged">持續追蹤</option></select></label>
+      <label><span>排序</span><select id="sortOrder"><option value="price-asc">價格：低至高</option><option value="discount-desc">折扣：高至低</option><option value="destination">目的地</option></select></label>
+    </section>
+
+    <div class="results-heading"><p id="resultCount" aria-live="polite">正在讀取航班資料…</p><button id="resetFilters" type="button">清除篩選</button></div>
+    <section id="results" class="deal-grid" aria-label="航班結果" aria-busy="true"></section>
+    <section id="emptyState" class="empty-state" hidden><strong>找不到符合條件的航班</strong><p>請調整搜尋文字或清除篩選。</p></section>
+    <section id="errorState" class="empty-state error" hidden><strong>報告暫時無法載入</strong><p>請稍後重新整理，或確認 GitHub Actions 已成功發布最新資料。</p></section>
+  </main>
+
+  <footer><span>資料來源：Google Flights AI</span><span>低價候選尚未驗證 booking class，實際票價以訂票頁為準。</span></footer>
+</body>
+</html>

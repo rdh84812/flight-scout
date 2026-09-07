@@ -1,0 +1,38 @@
+# Google Flights AI 搜尋設定
+google_flights:
+  prompt: "華航，飛任何地方，桃園機場出發"
+  url: "https://www.google.com/travel/flights/deals?hl=zh-TW"
+  timeout_ms: 30000
+  # 頁面開啟後先等導覽彈窗出現，再嘗試關閉
+  modal_appearance_delay_ms: 3000
+  # 關閉導覽彈窗後，再等待 3 秒才輸入 Prompt
+  before_prompt_delay_ms: 3000
+  # 填入搜尋文字後，等待 Google AI UI 更新完成再按搜尋
+  submit_delay_ms: 1500
+
+# 瀏覽器設定 (Playwright)
+browser:
+  headless: false   # 開發階段預設 false，可看見瀏覽器操作；穩定後可改為 true
+  slow_mo: 50       # 動作間隔毫秒，讓畫面操作更平順
+  viewport:
+    width: 1280
+    height: 900
+
+# 自動掃描排程設定
+schedule:
+  enabled: true
+  hour: 7
+  minute: 0
+  timezone: "Asia/Taipei"
+
+# 價格與通知過濾設定
+notification:
+  # 相同行程價格下降超過此金額 (新台幣) 時才觸發降價通知
+  min_price_drop: 100
+
+# GitHub Pages 當日折扣航班報告
+reports:
+  enabled: true
+  # 成功掃描後只 commit/push reports/data/*.json，由 GitHub Actions 建站發布
+  auto_publish: true
+  site_url: "https://rdh84812.github.io/flight-scout/"

@@ -1,0 +1,1 @@
+"""Public flight report generation."""
