@@ -5,9 +5,10 @@ import unittest
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from unittest.mock import patch
 
 from reports.generator import build_report_payload, write_report_data
-from reports.publisher import publish_report_files
+from reports.publisher import _run_git, publish_report_files
 from reports.service import create_scan_report
 from scripts.build_site import build_site
 
@@ -129,6 +130,7 @@ class TestReportGeneration(unittest.TestCase):
             dated.write_text('{"scan_id": 14}\n', encoding="utf-8")
             unrelated = repo / "do-not-stage.txt"
             unrelated.write_text("private local file", encoding="utf-8")
+            subprocess.run(["git", "-C", str(repo), "add", "do-not-stage.txt"], check=True)
 
             result = publish_report_files(repo, [latest, dated], report_date="2026-09-06")
 
@@ -151,6 +153,79 @@ class TestReportGeneration(unittest.TestCase):
                 check=True,
                 capture_output=True,
             )
+
+            # A push failure leaves a local commit. Retrying the identical report
+            # must still push that commit and must leave unrelated staged files alone.
+            latest.write_text('{"scan_id": 15}\n', encoding="utf-8")
+            from reports import publisher
+            real_run_git = publisher._run_git
+
+            def fail_push(repo_dir, arguments, check=True):
+                if "push" in arguments:
+                    raise RuntimeError("simulated authentication failure")
+                return real_run_git(repo_dir, arguments, check=check)
+
+            with patch("reports.publisher._run_git", side_effect=fail_push):
+                with self.assertRaisesRegex(RuntimeError, "authentication failure"):
+                    publish_report_files(repo, [latest, dated], report_date="2026-09-06")
+            retried = publish_report_files(repo, [latest, dated], report_date="2026-09-06")
+            self.assertTrue(retried["published"])
+            remote_head = subprocess.run(
+                ["git", "--git-dir", str(remote), "rev-parse", "refs/heads/main"],
+                check=True, capture_output=True, text=True,
+            ).stdout.strip()
+            self.assertEqual(remote_head, retried["commit"])
+            staged = subprocess.run(
+                ["git", "-C", str(repo), "diff", "--cached", "--name-only"],
+                check=True, capture_output=True, text=True,
+            ).stdout.splitlines()
+            self.assertEqual(staged, ["do-not-stage.txt"])
+
+    def test_git_authentication_fails_without_interactive_prompts(self):
+        failure = subprocess.CompletedProcess(["git"], 128, "", "fatal: Cannot prompt because user interactivity has been disabled.")
+        with patch("reports.publisher.subprocess.run", return_value=failure) as run:
+            with self.assertRaisesRegex(RuntimeError, "GitHub 驗證失敗"):
+                _run_git(BASE_DIR, ["push", "origin", "HEAD:main"])
+        options = run.call_args.kwargs
+        self.assertEqual(options["env"]["GCM_INTERACTIVE"], "false")
+        self.assertEqual(options["env"]["GIT_TERMINAL_PROMPT"], "0")
+        self.assertEqual(options["stdin"], subprocess.DEVNULL)
+        self.assertEqual(options["timeout"], 60)
+
+    def test_git_timeout_has_actionable_error(self):
+        with patch("reports.publisher.subprocess.run", side_effect=subprocess.TimeoutExpired("git", 60)):
+            with self.assertRaisesRegex(RuntimeError, "60 秒"):
+                _run_git(BASE_DIR, ["push", "origin", "HEAD:main"])
+
+    def test_service_preserves_generated_report_on_publish_failure(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            with patch("reports.service.publish_report_files", side_effect=RuntimeError("GitHub 驗證失敗")) as publish:
+                status = create_scan_report(
+                    {"success": True, "scan_id": 14, "results": self.results},
+                    {"reports": {"github_username": "rdh84812"}},
+                    repo_dir=Path(temp_dir), generated_at=self.generated_at,
+                )
+            self.assertTrue(status["generated"])
+            self.assertFalse(status["published"])
+            self.assertEqual(status["reason"], "publish_failed")
+            self.assertEqual(status["error"], "GitHub 驗證失敗")
+            self.assertTrue(Path(status["paths"][0]).is_file())
+            self.assertEqual(publish.call_args.kwargs["github_username"], "rdh84812")
+
+    def test_summary_distinguishes_upload_from_deployment(self):
+        from discord_bot.embeds import create_scan_summary_embed
+
+        for status, expected in [
+            ({"generated": True, "published": False, "error": "GitHub 驗證失敗"}, "本機報告已保留"),
+            ({"generated": True, "published": False}, "尚未上傳"),
+            ({"generated": True, "published": True}, "Actions 部署結果"),
+        ]:
+            with self.subTest(status=status):
+                status["site_url"] = "https://example.github.io/flight-scout/"
+                embed = create_scan_summary_embed(91, 0, 20, report_status=status)
+                fields = "\n".join(field.value for field in embed.fields)
+                self.assertIn(expected, fields)
+                self.assertEqual("查看完整網頁" in fields, status["published"])
 
     def test_scan_report_service_exports_without_publishing_when_disabled(self):
         with tempfile.TemporaryDirectory() as temp_dir:

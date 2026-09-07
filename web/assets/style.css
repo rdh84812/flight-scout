@@ -48,19 +48,19 @@ button, select { cursor: pointer; }
 .report-meta { display: flex; align-items: center; gap: 9px; color: #c8d3d9; font-size: 13px; }
 .live-dot { width: 8px; height: 8px; border-radius: 50%; background: #4ed4ad; box-shadow: 0 0 0 5px rgba(78,212,173,.12); }
 
-main { width: min(1500px, calc(100% - 40px)); margin: 0 auto; padding: 46px 0 80px; }
-.overview { display: grid; grid-template-columns: minmax(260px, .75fr) minmax(600px, 1.25fr); gap: clamp(28px, 5vw, 72px); align-items: end; }
+main { width: min(1500px, calc(100% - 40px)); margin: 0 auto; padding: 28px 0 48px; }
+.overview { display: grid; grid-template-columns: minmax(260px, .75fr) minmax(560px, 1.25fr); gap: clamp(28px, 5vw, 72px); align-items: end; }
 .eyebrow { margin: 0 0 8px; color: var(--accent); font: 700 12px/1.2 ui-monospace, "Cascadia Mono", monospace; letter-spacing: .16em; }
-h1 { margin: 0; max-width: 8ch; font: 650 clamp(40px, 6vw, 76px)/.98 "Avenir Next", "Noto Sans TC", sans-serif; letter-spacing: -.055em; text-wrap: balance; }
+h1 { margin: 0; font: 650 clamp(32px, 4vw, 48px)/1.2 "Avenir Next", "Noto Sans TC", sans-serif; letter-spacing: -.055em; text-wrap: balance; }
 .prompt { max-width: 520px; margin: 20px 0 0; color: var(--muted); font-size: 14px; }
 .prompt:not(:empty)::before { content: "搜尋條件  "; color: var(--ink); font-weight: 700; }
 .summary-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.summary-grid article { min-height: 108px; padding: 22px 20px; display: flex; flex-direction: column; justify-content: space-between; border-right: 1px solid var(--line); }
+.summary-grid article { min-height: 88px; padding: 14px 16px; display: flex; flex-direction: column; justify-content: space-between; border-right: 1px solid var(--line); }
 .summary-grid article:last-child { border-right: 0; }
 .summary-grid span { color: var(--muted); font-size: 12px; }
 .summary-grid strong { font-size: clamp(22px, 2.4vw, 34px); letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
 
-.controls { position: sticky; top: 12px; z-index: 5; margin-top: 46px; padding: 16px; display: grid; grid-template-columns: 2fr repeat(3, 1fr); gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); }
+.controls { position: sticky; top: 12px; z-index: 5; margin-top: 26px; padding: 16px; display: grid; grid-template-columns: 1.7fr 1fr 1fr 1fr 1.4fr; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); }
 .controls label { min-width: 0; display: grid; gap: 5px; color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .04em; }
 .controls input, .controls select { width: 100%; min-height: 44px; padding: 0 13px; border: 1px solid var(--line); border-radius: 9px; color: var(--ink); background: var(--bg); outline: none; }
 .controls input:focus, .controls select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(231,95,69,.15); }
@@ -68,24 +68,26 @@ h1 { margin: 0; max-width: 8ch; font: 650 clamp(40px, 6vw, 76px)/.98 "Avenir Nex
 .results-heading p { margin: 0; color: var(--muted); font-size: 13px; }
 .results-heading button { min-height: 44px; padding: 0 10px; border: 0; color: var(--accent); background: transparent; font-weight: 700; }
 
-.deal-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
-.deal-card { min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 4px 16px rgba(13,38,54,.03); transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
-.deal-card:hover { transform: translateY(-3px); border-color: #b9b5ab; box-shadow: var(--shadow); }
-.card-top { display: flex; align-items: start; justify-content: space-between; gap: 16px; }
-.destination { margin: 0; font-size: 23px; letter-spacing: -.03em; }
-.country { display: block; margin-top: 2px; color: var(--muted); font-size: 12px; }
-.status { flex: 0 0 auto; padding: 5px 8px; border-radius: 999px; color: var(--muted); background: var(--surface-soft); font-size: 11px; font-weight: 700; }
+.deal-list { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--surface); }
+.deal-card { min-width: 0; padding: 14px 18px; display: grid; grid-template-columns: minmax(140px, 1fr) minmax(230px, 1.8fr) minmax(200px, 1.2fr) 128px; align-items: center; gap: 20px; border-bottom: 1px solid var(--line); }
+.deal-card:last-child { border-bottom: 0; }
+.deal-card:hover { background: var(--bg); }
+.card-top { display: flex; align-items: start; flex-direction: column; gap: 5px; min-width: 0; }
+.destination { margin: 0; font-size: 19px; letter-spacing: -.03em; overflow-wrap: anywhere; }
+.country { color: var(--muted); font-size: 12px; }
+.status { padding: 2px 7px; border-radius: 999px; color: var(--muted); background: var(--surface-soft); font-size: 11px; font-weight: 700; }
 .status.new { color: #9d321e; background: var(--accent-soft); }
 .status.price_drop { color: #076350; background: var(--success-soft); }
-.fare-row { display: flex; align-items: end; justify-content: space-between; gap: 14px; }
-.price { display: block; font-size: 30px; font-weight: 750; line-height: 1; letter-spacing: -.045em; font-variant-numeric: tabular-nums; }
-.original-price { min-height: 20px; margin-top: 7px; color: var(--muted); font-size: 12px; text-decoration: line-through; }
-.discount { max-width: 48%; color: var(--success); font-size: 12px; font-weight: 700; text-align: right; }
-.route { padding: 15px 0; display: grid; gap: 10px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.dates { font-size: 14px; font-weight: 700; }
-.details { min-height: 21px; color: var(--muted); font-size: 12px; overflow-wrap: anywhere; }
-.card-footer { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-.airline { color: var(--muted); font-size: 12px; }
+.fare-row { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.price { display: block; font-size: 23px; font-weight: 750; line-height: 1.2; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.original-price { color: var(--muted); font-size: 11px; text-decoration: line-through; }
+.original-price:empty { display: none; }
+.discount, .price-change { color: var(--success); font-size: 12px; font-weight: 700; }
+.route { display: grid; gap: 5px; min-width: 0; }
+.dates { font-size: 13px; font-weight: 700; }
+.details { color: var(--muted); font-size: 12px; overflow-wrap: anywhere; }
+.card-footer { display: flex; flex-direction: column; align-items: stretch; gap: 8px; }
+.airline { color: var(--muted); font-size: 12px; text-align: center; }
 .booking-link { min-height: 44px; padding: 0 16px; display: inline-flex; align-items: center; justify-content: center; border-radius: 10px; color: white; background: var(--navy); font-size: 13px; font-weight: 700; text-decoration: none; }
 .booking-link:hover { background: var(--accent); }
 .booking-link[aria-disabled="true"] { pointer-events: none; opacity: .45; }
@@ -98,10 +100,10 @@ footer { padding: 24px clamp(20px, 4vw, 64px); display: flex; justify-content: s
 @media (max-width: 1100px) {
   .overview { grid-template-columns: 1fr; }
   h1 { max-width: none; }
-  .deal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .deal-card { grid-template-columns: minmax(120px, 1fr) minmax(180px, 1.5fr) minmax(170px, 1fr) 110px; gap: 12px; }
   .controls { grid-template-columns: 2fr 1fr; }
 }
-@media (max-width: 680px) {
+@media (max-width: 800px) {
   .masthead { align-items: flex-start; }
   .report-meta { max-width: 45%; text-align: right; }
   main { width: min(100% - 24px, 1500px); padding-top: 34px; }
@@ -109,11 +111,19 @@ footer { padding: 24px clamp(20px, 4vw, 64px); display: flex; justify-content: s
   .summary-grid article:nth-child(2) { border-right: 0; }
   .summary-grid article:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
   .controls { position: static; grid-template-columns: 1fr; }
-  .deal-grid { grid-template-columns: 1fr; }
+  .deal-card { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; padding: 14px; }
+  .card-top { grid-column: 1; grid-row: 1; }
+  .fare-row { grid-column: 2; grid-row: 1; align-items: flex-end; text-align: right; }
+  .route { grid-column: 1 / -1; grid-row: 2; }
+  .card-footer { grid-column: 1 / -1; grid-row: 3; flex-direction: row; align-items: center; justify-content: space-between; }
+  .controls { grid-template-columns: 1fr 1fr; }
+  .search-field { grid-column: 1 / -1; }
   footer { flex-direction: column; }
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #0b1821; --surface: #122632; --surface-soft: #1c3441; --ink: #eef4f6; --muted: #9fb0b8; --line: #29404c; --navy: #07131a; --accent-soft: #3a211e; --success-soft: #123c35; --shadow: 0 18px 50px rgba(0,0,0,.24); }
   .booking-link { background: #eef4f6; color: #102331; }
+  .status.new { color: #ffaf96; }
+  .status.price_drop, .discount, .price-change { color: #68d8b9; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .deal-card { transition: none; } }

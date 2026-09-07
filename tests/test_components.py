@@ -153,6 +153,71 @@ class TestScannerComponents(unittest.TestCase):
         db_path.unlink()
         self.assertFalse(db_path.exists())
 
+    def test_current_fare_updates_on_rise_then_notifies_even_one_dollar_drop(self):
+        base = {"destination": "大阪", "country": "日本", "currency": "TWD", "outbound_date": "10月1日"}
+        for price, expected in [(8000, "new"), (9000, None), (8999, "price_drop"), (8999, None)]:
+            scan = start_scan_run()
+            saved, changes = save_flight_results(scan, [dict(base, price=price, outbound_date=f"10月{scan}日")])
+            self.assertEqual(changes[0]["diff_type"] if changes else None, expected)
+            if expected == "price_drop":
+                self.assertEqual(changes[0]["prev_price"], 9000)
+                self.assertEqual(changes[0]["price_drop"], 1)
+            finish_scan_run(scan, "success", len(saved))
+            current = db_module.get_current_flight_results()
+            self.assertEqual(len(current), 1)
+            self.assertEqual(current[0]["price"], price)
+            latest_changes = get_new_results_from_latest_scan()
+            self.assertEqual([c["diff_type"] for c in latest_changes], [expected] if expected else [])
+        with get_connection() as conn:
+            self.assertEqual(conn.execute("SELECT COUNT(*) FROM flight_results").fetchone()[0], 4)
+
+    def test_duplicate_destinations_use_cheapest_new_scan_and_failed_scan_is_ignored(self):
+        base = {"destination": "大阪", "country": "日本", "price": 8000}
+        first = start_scan_run()
+        save_flight_results(first, [base])
+        finish_scan_run(first, "success", 1)
+        failed = start_scan_run()
+        save_flight_results(failed, [dict(base, price=1000)])
+        finish_scan_run(failed, "failed", 0)
+        self.assertEqual(db_module.get_current_flight_results()[0]["price"], 8000)
+        next_scan = start_scan_run()
+        saved, changes = save_flight_results(next_scan, [dict(base, price=10000), dict(base, price=9000)])
+        self.assertEqual(len(saved), 1)
+        self.assertEqual(changes, [])
+        finish_scan_run(next_scan, "success", 1)
+        self.assertEqual(db_module.get_current_flight_results()[0]["price"], 9000)
+
+    def test_country_and_currency_are_separate_and_absent_city_keeps_last_fare(self):
+        first = start_scan_run()
+        saved, _ = save_flight_results(first, [
+            {"destination": "同名城市", "country": "日本", "currency": "TWD", "price": 8000},
+            {"destination": "同名城市", "country": "美國", "currency": "TWD", "price": 9000},
+            {"destination": "同名城市", "country": "日本", "currency": "USD", "price": 300},
+        ])
+        finish_scan_run(first, "success", len(saved))
+        self.assertEqual(len(db_module.get_current_flight_results()), 3)
+        second = start_scan_run()
+        save_flight_results(second, [{"destination": "東京", "price": 7000}])
+        finish_scan_run(second, "success", 1)
+        third = start_scan_run()
+        _, changes = save_flight_results(third, [{"destination": "同名城市", "country": "日本", "currency": "TWD", "price": 7999}])
+        self.assertEqual(changes[0]["prev_price"], 8000)
+
+    def test_existing_database_migration_keeps_history_and_latest_price(self):
+        for price in (8000, 9000):
+            scan = start_scan_run()
+            save_flight_results(scan, [{"destination": "大阪", "price": price}])
+            finish_scan_run(scan, "success", 1)
+        with get_connection() as conn:
+            conn.execute("DROP TABLE current_flights")
+            conn.execute("DROP INDEX idx_flight_destination_scan")
+            conn.execute("ALTER TABLE flight_results DROP COLUMN destination_key")
+        init_db()
+        init_db()
+        self.assertEqual(db_module.get_current_flight_results()[0]["price"], 9000)
+        with get_connection() as conn:
+            self.assertEqual(conn.execute("SELECT COUNT(*) FROM flight_results").fetchone()[0], 2)
+
     def test_dynamic_source_url_does_not_duplicate_same_itinerary(self):
         first_scan = start_scan_run()
         base_item = {
@@ -267,6 +332,34 @@ class TestScannerComponents(unittest.TestCase):
 
 
 class TestDiscordDelivery(unittest.IsolatedAsyncioTestCase):
+    async def test_manual_scan_sends_price_drop_details_after_summary(self):
+        from discord_bot.bot import cmd_scan
+        interaction = SimpleNamespace(response=SimpleNamespace(send_message=AsyncMock()), followup=SimpleNamespace(send=AsyncMock()))
+        drop = {"id": 2, "destination": "大阪", "price": 8999, "prev_price": 9000, "price_drop": 1,
+                "diff_type": "price_drop", "outbound_date": "10月2日", "return_date": "10月9日",
+                "previous_outbound_date": "10月1日", "previous_return_date": "10月8日"}
+        with (
+            patch("discord_bot.bot.run_google_flights_scan", AsyncMock(return_value={"success": True, "scan_id": 2, "results": [drop], "items_to_notify": [drop]})),
+            patch("discord_bot.bot.prepare_scan_report", AsyncMock(return_value={"generated": True, "published": False})),
+            patch("discord_bot.bot.mark_as_notified") as mark,
+        ):
+            await cmd_scan.callback(interaction)
+        self.assertEqual(interaction.followup.send.await_count, 3)
+        embed = interaction.followup.send.await_args.kwargs["embeds"][0]
+        self.assertIn("9,000", embed.description)
+        self.assertIn("8,999", embed.description)
+        self.assertIn("出遊日期有變動", embed.description)
+        mark.assert_called_once_with([drop])
+
+    async def test_price_drop_delivery_only_marks_successful_batches(self):
+        from discord_bot.bot import send_scan_changes
+        drops = [{"id": i, "destination": "大阪", "price": 8000, "prev_price": 9000, "price_drop": 1000, "diff_type": "price_drop"} for i in range(12)]
+        channel = SimpleNamespace(send=AsyncMock(side_effect=[None, None, RuntimeError("delivery failed")]))
+        with patch("discord_bot.bot.mark_as_notified") as mark:
+            with self.assertRaisesRegex(RuntimeError, "delivery failed"):
+                await send_scan_changes(channel, drops)
+        mark.assert_called_once_with(drops[:10])
+
     async def test_command_sync_failure_stops_bot_startup(self):
         with patch.object(
             bot.tree,

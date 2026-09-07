@@ -52,6 +52,9 @@ async def run_single_scan(force_headless: Optional[bool] = None):
             res["report"] = report_status
             if report_status.get("published"):
                 logger.info(f"航班網頁資料已推送: {report_status.get('site_url', '')}")
+                logger.info("網站部署結果請查看 GitHub Actions；資料推送成功不代表網站已上線。")
+            elif report_status.get("error"):
+                logger.error(f"航班報告已保留於本機，但發布失敗: {report_status['error']}")
         except Exception as error:
             logger.error(f"產生或發布航班網頁失敗: {error}", exc_info=True)
             res["report"] = {"generated": False, "published": False, "error": str(error)}

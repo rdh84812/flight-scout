@@ -27,12 +27,14 @@ schedule:
 
 # 價格與通知過濾設定
 notification:
-  # 相同行程價格下降超過此金額 (新台幣) 時才觸發降價通知
-  min_price_drop: 100
+  # 同目的地比上次成功掃描便宜就通知；0 表示任何降幅（漲價也會更新目前票價）
+  min_price_drop: 0
 
 # GitHub Pages 當日折扣航班報告
 reports:
   enabled: true
   # 成功掃描後只 commit/push reports/data/*.json，由 GitHub Actions 建站發布
   auto_publish: true
+  # 固定使用有此儲存庫寫入權限的帳號，避免多帳號選擇視窗
+  github_username: "rdh84812"
   site_url: "https://rdh84812.github.io/flight-scout/"

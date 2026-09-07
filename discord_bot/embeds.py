@@ -33,8 +33,11 @@ def create_deal_embed(item: Dict[str, Any]) -> discord.Embed:
     if diff_type == "price_drop":
         prev_price_str = format_price(item.get("prev_price"), item.get("currency", "TWD"))
         drop_str = format_price(item.get("price_drop", 0), item.get("currency", "TWD"))
-        title = f"📉 華航候選降價通知 - {dest}"
-        description = f"原價 `{prev_price_str}` 降至 `{curr_price_str}` (現省 {drop_str})！"
+        title = f"📉 同目的地降價通知 - {dest}"
+        description = f"上次掃描 `{prev_price_str}` → 本次 `{curr_price_str}`，便宜 **{drop_str}**。"
+        previous_dates = [item.get("previous_outbound_date"), item.get("previous_return_date")]
+        if any(previous_dates) and previous_dates != [out_date, ret_date]:
+            description += f"\n出遊日期有變動；上次為 {' → '.join(date or '未提供' for date in previous_dates)}。"
         color = discord.Color.green()
     else:
         title = f"🔥 華航新低價候選 - {dest}"
@@ -90,6 +93,7 @@ def create_scan_summary_embed(
     scan_id: int, 
     duration_sec: Optional[float] = None,
     report_url: Optional[str] = None,
+    report_status: Optional[Dict[str, Any]] = None,
 ) -> discord.Embed:
     """建立掃描完成摘要 Embed"""
     embed = discord.Embed(
@@ -97,7 +101,7 @@ def create_scan_summary_embed(
         description=(
             f"本次掃描編號: `#{scan_id}`\n"
             f"共找到 **{total_found}** 筆特惠結果。\n"
-            f"其中 **{new_items_count}** 筆為新出現或顯著降價項目。"
+            f"其中 **{new_items_count}** 筆為新出現或降價項目。"
         ),
         color=discord.Color.blue(),
         timestamp=datetime.now()
@@ -110,6 +114,19 @@ def create_scan_summary_embed(
             value="今天沒有新發現或達到降價門檻的折扣航班。",
             inline=False,
         )
+    if report_status is not None:
+        report_url = report_status.get("site_url") if report_status.get("published") else None
+        if report_status.get("error"):
+            report_message = f"⚠️ 網頁報告處理失敗：{str(report_status['error'])[:600]}"
+            if report_status.get("generated"):
+                report_message += "\n本機報告已保留，航班掃描成功。"
+        elif report_status.get("published"):
+            report_message = "資料已上傳 GitHub；網站是否上線請查看 Actions 部署結果。若網址為 404，請檢查 Settings → Pages → GitHub Actions。"
+        elif report_status.get("generated"):
+            report_message = "報告已儲存於本機，尚未上傳 GitHub（自動發布未啟用）。"
+        else:
+            report_message = "本次未產生網頁報告。"
+        embed.add_field(name="網頁發布狀態", value=report_message, inline=False)
     if report_url:
         embed.add_field(
             name="完整航班報告",

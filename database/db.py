@@ -36,6 +36,30 @@ def _build_result_key(item: Dict[str, Any]) -> str:
         )
     )
 
+
+def _build_destination_key(item: Dict[str, Any]) -> str:
+    """同地點跨日期比較；不同國家、幣別不混在一起。"""
+    return "|".join(_normalize_result_key_part(item.get(field) or default)
+                    for field, default in (("destination", ""), ("country", ""), ("currency", "TWD")))
+
+
+def _refresh_current_flights(conn) -> None:
+    # Only successful snapshots can replace the current fare. Pick the cheapest
+    # candidate within the newest scan, never the historical minimum.
+    conn.execute("""
+        INSERT INTO current_flights (destination_key, result_id)
+        SELECT destination_key, id FROM (
+            SELECT f.destination_key, f.id,
+                   ROW_NUMBER() OVER (
+                       PARTITION BY f.destination_key
+                       ORDER BY f.scan_id DESC, f.price IS NULL, f.price ASC, f.id DESC
+                   ) AS rank
+            FROM flight_results f JOIN scan_runs s ON s.id = f.scan_id
+            WHERE s.status = 'success'
+        ) WHERE rank = 1
+        ON CONFLICT(destination_key) DO UPDATE SET result_id = excluded.result_id
+    """)
+
 @contextmanager
 def get_connection():
     """取得會自動提交/回滾並確實關閉的 SQLite 連線。"""
@@ -100,15 +124,25 @@ def init_db() -> None:
             cursor.execute("ALTER TABLE flight_results ADD COLUMN flight_details TEXT")
         if "result_key" not in existing_columns:
             cursor.execute("ALTER TABLE flight_results ADD COLUMN result_key TEXT")
+        if "destination_key" not in existing_columns:
+            cursor.execute("ALTER TABLE flight_results ADD COLUMN destination_key TEXT")
         # Google tfs URL 每次掃描可能改變，即使是同一行程；一律改用穩定欄位 key。
         existing_results = cursor.execute(
             "SELECT id, destination, country, outbound_date, return_date, airline, "
-            "flight_number, flight_details FROM flight_results"
+            "flight_number, flight_details, currency FROM flight_results"
         ).fetchall()
         cursor.executemany(
-            "UPDATE flight_results SET result_key = ? WHERE id = ?",
-            [(_build_result_key(dict(row)), row["id"]) for row in existing_results],
+            "UPDATE flight_results SET result_key = ?, destination_key = ? WHERE id = ?",
+            [(_build_result_key(dict(row)), _build_destination_key(dict(row)), row["id"]) for row in existing_results],
         )
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS current_flights (
+                destination_key TEXT PRIMARY KEY,
+                result_id INTEGER NOT NULL REFERENCES flight_results(id)
+            )
+        """)
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_flight_destination_scan ON flight_results(destination_key, scan_id)")
+        _refresh_current_flights(conn)
 
         # 3. notifications 表 (記錄已發送通知的項目與價格)
         cursor.execute("""
@@ -181,12 +215,14 @@ def finish_scan_run(scan_id: int, status: str, result_count: int, error: Optiona
             "UPDATE scan_runs SET end_time = ?, status = ?, result_count = ?, error = ? WHERE id = ?",
             (now, status, result_count, error, scan_id)
         )
+        if status == "success":
+            _refresh_current_flights(conn)
         conn.commit()
 
 def save_flight_results(
     scan_id: int, 
     results: List[Dict[str, Any]], 
-    min_price_drop: float = 100.0
+    min_price_drop: float = 0.0
 ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
     """
     將爬蟲結果存入資料庫，並比對歷史資料。
@@ -199,7 +235,15 @@ def save_flight_results(
     with get_connection() as conn:
         cursor = conn.cursor()
 
+        best_by_destination = {}
         for item in results:
+            key = _build_destination_key(item)
+            previous = best_by_destination.get(key)
+            if previous is None or (item.get("price") is not None and
+                                    (previous.get("price") is None or item["price"] < previous["price"])):
+                best_by_destination[key] = item
+
+        for destination_key, item in best_by_destination.items():
             dest = item.get("destination", "").strip()
             country = item.get("country", "").strip()
             out_date = item.get("outbound_date", "").strip()
@@ -217,12 +261,12 @@ def save_flight_results(
 
             cursor.execute("""
                 INSERT INTO flight_results (
-                    scan_id, result_key, destination, country, outbound_date, return_date,
+                    scan_id, result_key, destination_key, destination, country, outbound_date, return_date,
                     price, original_price, currency, discount_info, airline,
                     flight_number, flight_details, source_url, raw_text, created_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
-                scan_id, result_key, dest, country, out_date, ret_date,
+                scan_id, result_key, destination_key, dest, country, out_date, ret_date,
                 price, orig_price, currency, discount_info, airline,
                 flight_num, flight_details, source_url, raw_text, now
             ))
@@ -231,28 +275,31 @@ def save_flight_results(
             saved_item["id"] = item_id
             saved_item["scan_id"] = scan_id
             saved_item["result_key"] = result_key
+            saved_item["destination_key"] = destination_key
             all_saved.append(saved_item)
 
-            # 以穩定的行程欄位 key 比對，Google tfs URL 不適合作為去重依據。
+            # 比對最近成功掃描的同地點價格，不以曾通知價格或行程日期為準。
             cursor.execute("""
-                SELECT price FROM notifications
-                WHERE result_key = ?
-                ORDER BY id DESC LIMIT 1
-            """, (result_key,))
-            last_notification = cursor.fetchone()
+                SELECT f.price, f.outbound_date, f.return_date FROM current_flights c
+                JOIN flight_results f ON f.id = c.result_id
+                WHERE c.destination_key = ?
+            """, (destination_key,))
+            previous_fare = cursor.fetchone()
 
-            if last_notification is None:
+            if previous_fare is None:
                 # 情況 1: 新出現的行程
                 saved_item["diff_type"] = "new"
                 saved_item["prev_price"] = None
                 items_to_notify.append(saved_item)
             else:
-                prev_price = float(last_notification["price"])
-                if price is not None and (prev_price - price) >= min_price_drop:
-                    # 情況 2: 相同行程價格明顯下降
+                prev_price = previous_fare["price"]
+                if price is not None and prev_price is not None and prev_price > price and (prev_price - price) >= min_price_drop:
+                    # 情況 2: 同目的地價格下降
                     saved_item["diff_type"] = "price_drop"
                     saved_item["prev_price"] = prev_price
                     saved_item["price_drop"] = prev_price - price
+                    saved_item["previous_outbound_date"] = previous_fare["outbound_date"]
+                    saved_item["previous_return_date"] = previous_fare["return_date"]
                     items_to_notify.append(saved_item)
                 else:
                     # 情況 3: 價格未變或降價未達門檻，略過通知避免洗版
@@ -308,74 +355,45 @@ def get_latest_scan_results(limit: int = 20) -> Tuple[Optional[Dict[str, Any]], 
         results = [dict(r) for r in cursor.fetchall()]
         return run_dict, results
 
+def get_current_flight_results() -> List[Dict[str, Any]]:
+    """每個目的地的最新有效票價；歷史快照仍在 flight_results。"""
+    with get_connection() as conn:
+        return [dict(row) for row in conn.execute("""
+            SELECT f.* FROM current_flights c
+            JOIN flight_results f ON f.id = c.result_id
+            ORDER BY f.price IS NULL, f.price ASC
+        """)]
+
+
 def get_new_results_from_latest_scan(
     limit: int = 15,
-    min_price_drop: float = 100.0,
+    min_price_drop: float = 0.0,
 ) -> List[Dict[str, Any]]:
-    """取得最近一次掃描中屬於新項目或降價項目的清單"""
+    """與 /scan 相同：比較各目的地上一次成功出現時的最新票價。"""
     with get_connection() as conn:
-        cursor = conn.cursor()
-        cursor.execute("""
-            SELECT id FROM scan_runs
-            WHERE status = 'success'
-            ORDER BY id DESC LIMIT 1
-        """)
-        run = cursor.fetchone()
-        if not run:
-            return []
-
-        latest_scan_id = run["id"]
-        # 找出前一次的 scan_id
-        cursor.execute("""
-            SELECT id FROM scan_runs
-            WHERE status = 'success' AND id < ?
-            ORDER BY id DESC LIMIT 1
-        """, (latest_scan_id,))
-        prev_run = cursor.fetchone()
-
-        if not prev_run:
-            # 如果沒有前次紀錄，則這次所有結果都算新
-            cursor.execute("""
-                SELECT * FROM flight_results
-                WHERE scan_id = ?
-                ORDER BY price ASC LIMIT ?
-            """, (latest_scan_id, limit))
-            return [dict(r) for r in cursor.fetchall()]
-
-        prev_scan_id = prev_run["id"]
-        # 同時回傳新增行程與相較前一次掃描達門檻的降價行程。
-        cursor.execute("""
-            WITH previous AS (
-                SELECT result_key, MIN(price) AS price
-                FROM flight_results
-                WHERE scan_id = ?
-                GROUP BY result_key
+        rows = conn.execute("""
+            WITH ranked AS (
+                SELECT f.*, ROW_NUMBER() OVER (
+                    PARTITION BY f.destination_key
+                    ORDER BY f.scan_id DESC, f.price IS NULL, f.price, f.id DESC
+                ) AS rank
+                FROM flight_results f JOIN scan_runs s ON s.id = f.scan_id
+                WHERE s.status = 'success'
+                  AND s.id < (SELECT MAX(id) FROM scan_runs WHERE status = 'success')
             )
-            SELECT
-                cur.*,
-                CASE WHEN prev.result_key IS NULL THEN 'new' ELSE 'price_drop' END AS diff_type,
-                prev.price AS prev_price,
-                CASE
-                    WHEN prev.price IS NOT NULL AND cur.price IS NOT NULL
-                    THEN prev.price - cur.price
-                    ELSE NULL
-                END AS price_drop
+            SELECT cur.*, prev.price AS prev_price,
+                   prev.outbound_date AS previous_outbound_date,
+                   prev.return_date AS previous_return_date,
+                   CASE WHEN prev.id IS NULL THEN 'new' ELSE 'price_drop' END AS diff_type,
+                   prev.price - cur.price AS price_drop
             FROM flight_results cur
-            LEFT JOIN previous prev
-              ON prev.result_key = cur.result_key
-            WHERE cur.scan_id = ?
-              AND (
-                  prev.result_key IS NULL
-                  OR (
-                      prev.price IS NOT NULL
-                      AND cur.price IS NOT NULL
-                      AND prev.price - cur.price >= ?
-                  )
-              )
-            ORDER BY cur.price ASC
-            LIMIT ?
-        """, (prev_scan_id, latest_scan_id, min_price_drop, limit))
-        return [dict(r) for r in cursor.fetchall()]
+            LEFT JOIN ranked prev ON prev.destination_key = cur.destination_key AND prev.rank = 1
+            WHERE cur.scan_id = (SELECT MAX(id) FROM scan_runs WHERE status = 'success')
+              AND (prev.id IS NULL OR (prev.price > cur.price AND prev.price - cur.price >= ?))
+            ORDER BY cur.price IS NULL, cur.price ASC LIMIT ?
+        """, (min_price_drop, limit))
+        return [dict(row) for row in rows]
+
 
 def get_scan_history(limit: int = 5) -> List[Dict[str, Any]]:
     """取得最近幾次掃描紀錄"""

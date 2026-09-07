@@ -259,7 +259,7 @@ async def run_google_flights_scan(
             "before_prompt_delay_ms", 3000
         )
         submit_delay_ms = config["google_flights"].get("submit_delay_ms", 1500)
-        min_price_drop = config.get("notification", {}).get("min_price_drop", 100.0)
+        min_price_drop = config.get("notification", {}).get("min_price_drop", 0.0)
 
         headless = force_headless if force_headless is not None else config["browser"]["headless"]
         slow_mo = config["browser"].get("slow_mo", 50)
@@ -441,6 +441,7 @@ async def run_google_flights_scan(
                     min_price_drop=min_price_drop
                 )
 
+                result_count = len(saved_results)
                 finish_scan_run(scan_id, "success", result_count, error=None)
                 logger.info(
                     f"=== 掃描完成 (Scan ID: {scan_id}) === "

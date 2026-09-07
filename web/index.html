@@ -41,11 +41,12 @@
       </label>
       <label><span>地區</span><select id="countryFilter"><option value="">全部地區</option></select></label>
       <label><span>狀態</span><select id="statusFilter"><option value="">全部狀態</option><option value="new">新發現</option><option value="price_drop">價格下降</option><option value="unchanged">持續追蹤</option></select></label>
-      <label><span>排序</span><select id="sortOrder"><option value="price-asc">價格：低至高</option><option value="discount-desc">折扣：高至低</option><option value="destination">目的地</option></select></label>
+      <label><span>排序</span><select id="sortOrder"><option value="price">價格</option><option value="discount">折扣</option><option value="destination">目的地</option><option value="date">日期（出發日）</option></select></label>
+      <label><span>排序方向</span><select id="sortDirection"><option value="asc">正序：低 → 高／早 → 晚</option><option value="desc">倒序：高 → 低／晚 → 早</option></select></label>
     </section>
 
     <div class="results-heading"><p id="resultCount" aria-live="polite">正在讀取航班資料…</p><button id="resetFilters" type="button">清除篩選</button></div>
-    <section id="results" class="deal-grid" aria-label="航班結果" aria-busy="true"></section>
+    <section id="results" class="deal-list" aria-label="航班結果" aria-busy="true"></section>
     <section id="emptyState" class="empty-state" hidden><strong>找不到符合條件的航班</strong><p>請調整搜尋文字或清除篩選。</p></section>
     <section id="errorState" class="empty-state error" hidden><strong>報告暫時無法載入</strong><p>請稍後重新整理，或確認 GitHub Actions 已成功發布最新資料。</p></section>
   </main>

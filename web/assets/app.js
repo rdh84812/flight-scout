@@ -1,6 +1,6 @@
 "use strict";
 
-const state = { deals: [], filtered: [] };
+const state = { deals: [], filtered: [], reportDate: "" };
 const $ = (id) => document.getElementById(id);
 
 function formatPrice(value, currency = "TWD") {
@@ -34,6 +34,40 @@ function statusLabel(status) {
   return { new: "新發現", price_drop: "價格下降", unchanged: "持續追蹤" }[status] || "持續追蹤";
 }
 
+function departureTimestamp(value, referenceDate) {
+  const text = String(value || "").trim();
+  const match = text.match(/^(?:(\d{4})[年/\-])?(\d{1,2})[月/\-](\d{1,2})(?:日)?/);
+  if (!match) return null;
+  const reference = new Date(`${referenceDate}T00:00:00Z`);
+  if (!match[1] && !Number.isFinite(reference.getTime())) return null;
+  let year = match[1] ? Number(match[1]) : reference.getUTCFullYear();
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  if (!match[1] && (month < reference.getUTCMonth() + 1 ||
+      (month === reference.getUTCMonth() + 1 && day < reference.getUTCDate()))) year += 1;
+  const date = new Date(Date.UTC(year, month - 1, day));
+  return date.getUTCMonth() === month - 1 && date.getUTCDate() === day ? date.getTime() : null;
+}
+
+function compareDeals(a, b, order, direction, referenceDate) {
+  let left, right;
+  if (order === "date") {
+    left = departureTimestamp(a.outbound_date, referenceDate);
+    right = departureTimestamp(b.outbound_date, referenceDate);
+  } else if (order === "destination") {
+    left = a.destination || null; right = b.destination || null;
+  } else if (order === "discount") {
+    left = discountPercent(a); right = discountPercent(b);
+  } else {
+    left = a.price; right = b.price;
+  }
+  // Missing values stay at the bottom in either direction.
+  if (left == null || right == null) return left == null ? (right == null ? 0 : 1) : -1;
+  const comparison = typeof left === "string" ? left.localeCompare(right, "zh-Hant") : left - right;
+  return comparison * (direction === "desc" ? -1 : 1) ||
+    String(a.destination || "").localeCompare(String(b.destination || ""), "zh-Hant");
+}
+
 function createCard(deal) {
   const card = node("article", "deal-card");
   const top = node("div", "card-top");
@@ -60,7 +94,10 @@ function createCard(deal) {
   if (url) { link.href = url; link.target = "_blank"; link.rel = "noopener noreferrer"; }
   else { link.href = "#"; link.setAttribute("aria-disabled", "true"); }
   footer.append(link);
-  card.append(top, fareRow, route, footer);
+  if (deal.price_drop) {
+    fare.append(node("div", "price-change", `上次 ${formatPrice(deal.previous_price, deal.currency)} · 降 ${formatPrice(deal.price_drop, deal.currency)}`));
+  }
+  card.append(top, route, fareRow, footer);
   return card;
 }
 
@@ -81,16 +118,13 @@ function applyFilters() {
     const searchable = [deal.destination, deal.country, deal.flight_details, deal.airline, deal.flight_number].join(" ").toLocaleLowerCase("zh-TW");
     return (!query || searchable.includes(query)) && (!country || deal.country === country) && (!status || deal.status === status);
   });
-  state.filtered.sort((a, b) => {
-    if (order === "discount-desc") return discountPercent(b) - discountPercent(a);
-    if (order === "destination") return String(a.destination || "").localeCompare(String(b.destination || ""), "zh-Hant");
-    return (a.price ?? Number.MAX_SAFE_INTEGER) - (b.price ?? Number.MAX_SAFE_INTEGER);
-  });
+  state.filtered.sort((a, b) => compareDeals(a, b, order, $("sortDirection").value, state.reportDate));
   render();
 }
 
 function hydrate(payload) {
   state.deals = Array.isArray(payload.deals) ? payload.deals : [];
+  state.reportDate = payload.report_date || String(payload.generated_at || "").slice(0, 10);
   $("generatedAt").textContent = `更新於 ${new Intl.DateTimeFormat("zh-TW", { dateStyle: "medium", timeStyle: "short" }).format(new Date(payload.generated_at))}`;
   $("promptText").textContent = payload.prompt || "";
   $("lowestPrice").textContent = formatPrice(payload.summary?.lowest_price);
@@ -115,12 +149,13 @@ async function loadReport() {
   }
 }
 
-["searchInput", "countryFilter", "statusFilter", "sortOrder"].forEach((id) => $(id).addEventListener("input", applyFilters));
+["searchInput", "countryFilter", "statusFilter", "sortOrder", "sortDirection"].forEach((id) => $(id).addEventListener("input", applyFilters));
 $("resetFilters").addEventListener("click", () => {
   $("searchInput").value = "";
   $("countryFilter").value = "";
   $("statusFilter").value = "";
-  $("sortOrder").value = "price-asc";
+  $("sortOrder").value = "price";
+  $("sortDirection").value = "asc";
   applyFilters();
 });
 loadReport();

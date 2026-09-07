@@ -34,11 +34,12 @@ def load_config() -> Dict[str, Any]:
             "timezone": "Asia/Taipei",
         },
         "notification": {
-            "min_price_drop": 100,
+            "min_price_drop": 0,
         },
         "reports": {
             "enabled": True,
             "auto_publish": True,
+            "github_username": "",
             "site_url": "https://rdh84812.github.io/flight-scout/",
         },
     }

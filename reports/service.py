@@ -41,6 +41,14 @@ def create_scan_report(
         "paths": [str(path) for path in paths],
     }
     if report_config.get("auto_publish", True):
-        publication = publish_report_files(repo_dir, paths, payload["report_date"])
-        status.update(publication)
+        try:
+            publication = publish_report_files(
+                repo_dir, paths, payload["report_date"],
+                github_username=str(report_config.get("github_username", "")).strip(),
+            )
+            status.update(publication)
+        except Exception as error:
+            status.update(reason="publish_failed", error=str(error))
+    else:
+        status["reason"] = "auto_publish_disabled"
     return status

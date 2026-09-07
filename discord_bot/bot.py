@@ -34,6 +34,8 @@ async def prepare_scan_report(scan_res: dict) -> dict:
         status = await asyncio.to_thread(create_scan_report, scan_res, load_config())
         if status.get("published"):
             logger.info(f"航班網頁資料已推送: {status.get('site_url', '')}")
+        elif status.get("error"):
+            logger.error(f"航班報告已保留於本機，但發布失敗: {status['error']}")
         return status
     except Exception as error:
         logger.error(f"產生或發布航班網頁失敗: {error}", exc_info=True)
@@ -95,6 +97,18 @@ async def send_deals_to_channel(
         if i + 10 < len(items):
             await asyncio.sleep(0.5)
 
+async def send_scan_changes(channel, items: list):
+    """新發現保留摘要；降價逐筆顯示，且只標記成功送出的批次。"""
+    new_items = [item for item in items if item.get("diff_type") != "price_drop"]
+    if new_items:
+        mark_as_notified(new_items)
+    drops = [item for item in items if item.get("diff_type") == "price_drop"]
+    if drops:
+        await send_deals_to_channel(
+            channel, drops, title_prefix=f"📉 本次有 {len(drops)} 個目的地比上次更便宜：", mark_sent=True,
+        )
+
+
 async def execute_scan_and_notify():
     """執行自動排程掃描，並於有新特惠或降價時通知指定頻道"""
     logger.info("排程觸發: 開始執行 Google Flights 每日自動掃描...")
@@ -125,7 +139,6 @@ async def execute_scan_and_notify():
     items_to_notify = scan_res.get("items_to_notify", [])
     total_found = len(scan_res.get("results", []))
     report_status = await prepare_scan_report(scan_res)
-    report_url = report_status.get("site_url") if report_status.get("generated") else None
 
     if channel:
         logger.info(f"發送掃描摘要；新特惠/降價機票 {len(items_to_notify)} 筆")
@@ -134,11 +147,10 @@ async def execute_scan_and_notify():
             new_items_count=len(items_to_notify),
             scan_id=scan_res.get("scan_id", 0),
             duration_sec=duration,
-            report_url=report_url,
+            report_status=report_status,
         )
         await channel.send(embed=summary_embed)
-        if items_to_notify:
-            mark_as_notified(items_to_notify)
+        await send_scan_changes(channel, items_to_notify)
     else:
         logger.warning("未設定有效的 DISCORD_CHANNEL_ID，略過頻道推播")
 
@@ -179,18 +191,16 @@ async def cmd_scan(interaction: discord.Interaction):
     new_count = len(items_to_notify)
 
     report_status = await prepare_scan_report(scan_res)
-    report_url = report_status.get("site_url") if report_status.get("generated") else None
     reply_msg = f"✅ 搜尋完成，共找到 **{total_count}** 筆結果，其中 **{new_count}** 筆為新結果/降價機票。"
     summary_embed = create_scan_summary_embed(
         total_found=total_count,
         new_items_count=new_count,
         scan_id=scan_res.get("scan_id", 0),
         duration_sec=duration,
-        report_url=report_url,
+        report_status=report_status,
     )
     await interaction.followup.send(content=reply_msg, embed=summary_embed)
-    if items_to_notify:
-        mark_as_notified(items_to_notify)
+    await send_scan_changes(interaction.followup, items_to_notify)
 
 @bot.tree.command(name="latest", description="顯示最近一次搜尋結果 (最低價優先)")
 async def cmd_latest(interaction: discord.Interaction):
@@ -207,7 +217,7 @@ async def cmd_latest(interaction: discord.Interaction):
 
 @bot.tree.command(name="new", description="顯示最近一次掃描相較前一輪新增或降價的機票")
 async def cmd_new(interaction: discord.Interaction):
-    min_price_drop = load_config().get("notification", {}).get("min_price_drop", 100.0)
+    min_price_drop = load_config().get("notification", {}).get("min_price_drop", 0.0)
     new_results = get_new_results_from_latest_scan(
         limit=10,
         min_price_drop=min_price_drop,
@@ -215,7 +225,7 @@ async def cmd_new(interaction: discord.Interaction):
     if not new_results:
         site_url = load_config().get("reports", {}).get("site_url", "")
         await interaction.response.send_message(
-            "最近一次掃描相較上一輪無新增或顯著降價機票。\n"
+            "最近一次掃描相較各目的地上次票價無新增或降價機票。\n"
             f"🌐 [查看完整航班網頁]({site_url})"
         )
         return

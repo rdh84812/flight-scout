@@ -2,14 +2,14 @@
 
 專為自動追蹤 **Google Flights AI 自然語言搜尋** 設計的自動化爬蟲與 Discord 通知機器人。
 
-每日自動操作真實瀏覽器進入 Google Flights AI 特惠搜尋，輸入自訂語句（預設：`華航，飛任何地方，桃園機場出發`），擷取結果存入 SQLite 比對，輸出公開 JSON 並由 GitHub Actions 發布成 GitHub Pages。Discord 只發送摘要與完整報告網址，避免大量 Embed 洗版。
+每日自動操作真實瀏覽器進入 Google Flights AI 特惠搜尋，輸入自訂語句（預設：`華航，飛任何地方，桃園機場出發`），擷取結果存入 SQLite 比對，輸出公開 JSON 並由 GitHub Actions 發布成 GitHub Pages。Discord 發送摘要與完整報告網址，並逐筆列出同目的地的降價航班。
 
 ---
 
 ## 🌟 核心特色
 
 - **完全交由 Google Flights AI 自然語言搜尋**：不用自己維護繁瑣的目的地清單或日期矩陣，搜尋條件集中於 `config.yaml`。
-- **即時比對與防止洗版 (Smart Diff & Deduplication)**：已推播過且票價未變動的行程不會重複洗版，僅在「新出現航點」或「相同行程顯著降價」時推播。
+- **即時比對與防止洗版 (Smart Diff & Deduplication)**：每個城市、國家與幣別保留最新有效票價，漲價也更新；降價與上次成功掃描同目的地的票價比較，不受上次通知價格限制。
 - **完整的 Discord Bot & Slash Commands**：
   - `/scan`：立即觸發一次即時搜尋（內建非同步鎖防重複執行）。
   - `/latest`：列出最新一次掃描找到的特惠行程（最低價優先）。
@@ -19,7 +19,7 @@
   - `/help`：顯示可用指令說明。
 - **嚴謹的錯誤處理與除錯機制**：若遇到頁面改版、載入逾時或安全驗證，自動保存除錯截圖（`debug/*.png`）與網頁原始碼（`debug/*.html`），並向 Discord 發送警報。
 - **集中管理 Selectors**：所有 CSS / Role / Aria-Label 選取器集中於 `scanner/selectors.py`，未來 Google 改版維護極為容易。
-- **精美的當日航班網頁**：支援目的地搜尋、國家與狀態篩選、價格／折扣排序、手機版與深色模式。
+- **精美的當日航班網頁**：支援目的地搜尋、國家與狀態篩選、價格／折扣／目的地／出發日排序及正序、倒序、手機版與深色模式。
 - **方案 B 發布流程**：Windows 本機負責 Google Flights 掃描與 JSON push；GitHub Actions 只建置及發布靜態網站，不在雲端嘗試操作 Google 或繞過安全驗證。
 
 ---
@@ -228,7 +228,7 @@ schedule:
 
 # 價格變化通知門檻
 notification:
-  min_price_drop: 100   # 相同行程價格下降超過 NT$100 時才發送降價通知
+  min_price_drop: 0     # 同目的地任何降幅均通知；相同價格或漲價不通知
 
 reports:
   enabled: true
@@ -248,6 +248,20 @@ Windows Playwright 掃描 → SQLite → reports/data/*.json → git push
 ```
 
 Repository 的 **Settings → Pages → Build and deployment** 必須選擇 **GitHub Actions**。Workflow 位於 `.github/workflows/pages.yml`，也可在 Actions 頁面手動執行。
+
+### 網頁 404 或反覆出現 GitHub 帳號選擇視窗
+
+- Discord 顯示掃描成功只代表航班已抓到。資料 push 成功後，仍須等 Actions 的 `build` 與 `deploy` 成功，網站才會更新。
+- 若 Actions 在 `Configure GitHub Pages` 出現 `Get Pages site failed` / `Not Found`，請先到 **Settings → Pages → Source → GitHub Actions** 啟用 Pages，再到 **Actions → Deploy flight report to GitHub Pages → Run workflow** 重跑，無須重新掃描。
+- 私人儲存庫需要支援私人 Pages 的付費方案（個人帳號為 GitHub Pro）。若設定頁要求升級，需自行選擇方案或另行規劃公開報告儲存庫。參見 [GitHub Pages 官方設定說明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
+- `reports.github_username` 指定此專案 push 使用的 GitHub 帳號，目前為 `rdh84812`。這是登入帳號，與 commit 的 `user.name` / `user.email` 無關。
+- 自動發布不會顯示登入視窗，Git 操作最多等待 60 秒。若尚未登入或憑證失效，Discord 會顯示發布錯誤，本機 JSON 仍會保留。先在終端機完成一次登入：
+
+  ```powershell
+  git -c credential.https://github.com.username=rdh84812 push origin HEAD:main
+  ```
+
+  然後重新執行 `python3 main.py` 載入修正與設定。只需暫停上傳時，將 `reports.auto_publish` 設為 `false`，掃描與本機報告仍可使用。
 
 公開 JSON 不包含 `.env`、Discord credentials、SQLite ID、`result_key` 或 Google 頁面的 `raw_text`；`.env`、資料庫、logs、debug artifacts 與 `_site/` 均不會被 commit。
 
@@ -299,3 +313,19 @@ python3 main.py --debug
 
 Google 的結果卡片目前通常只顯示直達/轉機、時間與航線，不一定顯示航空公司或
 航班編號；程式對未顯示的欄位會保留空白，不會自行推定。
+
+
+## 最新票價與降價通知
+
+- `current_flights` 每個城市、國家、幣別只有一筆目前資料，指向 `flight_results` 中最新成功掃描的票價。新的價格無論漲跌都會取代目前資料；舊的 `flight_results` 快照保留，用於歷史與降價比對。`get_current_flight_results()` 可讀取完整目前票價。
+- 同次掃描若同一目的地有多筆，採該次最低價；該次未出現的目的地保留最後一次有效價格。失敗掃描不會更新目前資料。啟動時會自動升級既有資料庫。
+- 比較不要求出遊日期相同。例如大阪 8,000 → 9,000 → 8,999，第三次會通知便宜了 1 元。`notification.min_price_drop: 0` 表示任何降幅都通知。若日期不同，Discord 會註明原出遊日期。
+- 手動 `/scan` 與每日排程都會在摘要後逐筆列出降價目的地、上次／本次價格、差額、日期、航程與訂票連結，每批最多 10 張卡片。
+- 網頁使用緊湊列表，排序欄位包含價格、折扣、目的地與出發日，另有正序／倒序選單。無年份的出發日依報告日期推算最近一次未來日期；缺少價格或日期者在兩種方向都排最後。
+
+驗證（不連線 Discord 或 Google）：
+
+```powershell
+python3 -m unittest discover -s tests
+node --test tests/test_web.cjs
+```
