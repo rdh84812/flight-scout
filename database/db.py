@@ -405,6 +405,17 @@ def get_scan_history(limit: int = 5) -> List[Dict[str, Any]]:
         """, (limit,))
         return [dict(r) for r in cursor.fetchall()]
 
+
+def get_latest_successful_scan() -> Optional[Dict[str, Any]]:
+    """取得最近一次成功掃描，供每日排程判斷是否需要補跑。"""
+    with get_connection() as conn:
+        row = conn.execute("""
+            SELECT * FROM scan_runs
+            WHERE status = 'success'
+            ORDER BY id DESC LIMIT 1
+        """).fetchone()
+        return dict(row) if row else None
+
 def get_scanner_status() -> Dict[str, Any]:
     """取得 Scanner 狀態統計"""
     with get_connection() as conn:

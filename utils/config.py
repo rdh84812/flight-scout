@@ -32,6 +32,8 @@ def load_config() -> Dict[str, Any]:
             "hour": 7,
             "minute": 0,
             "timezone": "Asia/Taipei",
+            "catch_up_on_start": True,
+            "misfire_grace_hours": 23,
         },
         "notification": {
             "min_price_drop": 0,

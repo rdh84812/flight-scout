@@ -1,6 +1,7 @@
 import tempfile
 import unittest
 import sys
+from datetime import datetime
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from types import SimpleNamespace
@@ -329,6 +330,49 @@ class TestScannerComponents(unittest.TestCase):
 
         scan_mock.assert_called_once_with(force_headless=None)
         asyncio_run.assert_called_once_with(scan_result)
+
+    def test_scheduler_allows_sleep_resume_and_avoids_overlapping_runs(self):
+        import main
+
+        with patch.object(main, "load_config", return_value={
+            "schedule": {
+                "enabled": True,
+                "hour": 7,
+                "minute": 0,
+                "timezone": "Asia/Taipei",
+                "misfire_grace_hours": 23,
+            }
+        }):
+            scheduler = main.setup_scheduler()
+        job = scheduler.get_job("daily_google_flights_scan")
+        self.assertEqual(job.misfire_grace_time, 23 * 60 * 60)
+        self.assertTrue(job.coalesce)
+        self.assertEqual(job.max_instances, 1)
+
+    def test_startup_catchup_runs_only_after_schedule_without_today_success(self):
+        import main
+
+        config = {"schedule": {
+            "enabled": True,
+            "hour": 7,
+            "minute": 0,
+            "timezone": "Asia/Taipei",
+            "catch_up_on_start": True,
+        }}
+        before_schedule = datetime(2026, 9, 9, 6, 59)
+        after_schedule = datetime(2026, 9, 9, 10, 0)
+
+        with patch.object(main, "get_latest_successful_scan", return_value=None):
+            self.assertFalse(main.should_run_startup_catchup(config, before_schedule))
+            self.assertTrue(main.should_run_startup_catchup(config, after_schedule))
+        with patch.object(main, "get_latest_successful_scan", return_value={
+            "start_time": "2026-09-09T07:00:00"
+        }):
+            self.assertFalse(main.should_run_startup_catchup(config, after_schedule))
+        with patch.object(main, "get_latest_successful_scan", return_value={
+            "start_time": "2026-09-08T14:00:00"
+        }):
+            self.assertTrue(main.should_run_startup_catchup(config, after_schedule))
 
 
 class TestDiscordDelivery(unittest.IsolatedAsyncioTestCase):

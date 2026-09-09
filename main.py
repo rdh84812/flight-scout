@@ -1,6 +1,7 @@
 import argparse
 import asyncio
 import sys
+from datetime import datetime
 from typing import Optional
 
 import discord
@@ -8,7 +9,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 import pytz
 
-from database.db import init_db
+from database.db import get_latest_successful_scan, init_db
 from discord_bot.bot import bot, execute_scan_and_notify
 from reports.service import create_scan_report
 from scanner.google_flights import run_google_flights_scan
@@ -101,17 +102,61 @@ def setup_scheduler() -> AsyncIOScheduler:
             tz = pytz.timezone("Asia/Taipei")
 
         trigger = CronTrigger(hour=hour, minute=minute, timezone=tz)
+        misfire_grace_hours = max(1, int(sched_cfg.get("misfire_grace_hours", 23)))
         scheduler.add_job(
             execute_scan_and_notify,
             trigger=trigger,
             id="daily_google_flights_scan",
-            replace_existing=True
+            replace_existing=True,
+            coalesce=True,
+            max_instances=1,
+            misfire_grace_time=misfire_grace_hours * 60 * 60,
         )
         logger.info(f"已啟用每日自動排程: 每天 {hour:02d}:{minute:02d} ({tz_str}) 執行掃描與推播")
     else:
         logger.info("自動排程已在 config.yaml 中設為停用 (schedule.enabled = false)")
 
     return scheduler
+
+
+def should_run_startup_catchup(config: dict, now: Optional[datetime] = None) -> bool:
+    """07:00 後啟動時，若今天尚未成功掃描就補跑一次。"""
+    sched_cfg = config.get("schedule", {})
+    if not sched_cfg.get("enabled", True) or not sched_cfg.get("catch_up_on_start", True):
+        return False
+
+    tz_str = sched_cfg.get("timezone", "Asia/Taipei")
+    try:
+        tz = pytz.timezone(tz_str)
+    except Exception:
+        tz = pytz.timezone("Asia/Taipei")
+
+    current = now or datetime.now(tz)
+    if current.tzinfo is None:
+        current = tz.localize(current)
+    else:
+        current = current.astimezone(tz)
+
+    scheduled_today = tz.localize(datetime(
+        current.year,
+        current.month,
+        current.day,
+        int(sched_cfg.get("hour", 7)),
+        int(sched_cfg.get("minute", 0)),
+    ))
+    if current < scheduled_today:
+        return False
+
+    latest = get_latest_successful_scan()
+    if not latest or not latest.get("start_time"):
+        return True
+
+    latest_time = datetime.fromisoformat(latest["start_time"])
+    if latest_time.tzinfo is None:
+        latest_time = tz.localize(latest_time)
+    else:
+        latest_time = latest_time.astimezone(tz)
+    return latest_time < scheduled_today
 
 async def start_bot_and_scheduler():
     """啟動 Discord Bot 與背景排程"""
@@ -139,7 +184,14 @@ async def start_bot_and_scheduler():
     async def start_scheduler_after_ready():
         await bot.wait_until_ready()
         scheduler.start()
-        logger.info("Discord ready，APScheduler 排程器已啟動")
+        job = scheduler.get_job("daily_google_flights_scan")
+        next_run = job.next_run_time.isoformat() if job and job.next_run_time else "未排定"
+        logger.info(f"Discord ready，APScheduler 排程器已啟動；下次執行: {next_run}")
+
+        config = load_config()
+        if should_run_startup_catchup(config):
+            logger.info("今天排定時間已過且尚無成功掃描，立即補跑每日 /scan")
+            await execute_scan_and_notify()
 
     scheduler_task = asyncio.create_task(start_scheduler_after_ready())
 
