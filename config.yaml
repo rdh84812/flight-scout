@@ -24,7 +24,7 @@ schedule:
   hour: 7
   minute: 0
   timezone: "Asia/Taipei"
-  # 若 07:00 時電腦休眠，醒來後仍補跑；若程式在 07:00 後才啟動，也會補跑當天尚未執行的掃描
+  # 程式啟動時若當天尚未成功掃描，會立即補跑一次
   catch_up_on_start: true
   misfire_grace_hours: 23
 

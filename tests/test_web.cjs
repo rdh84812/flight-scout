@@ -22,9 +22,9 @@ test("departure dates sort numerically and handle year rollover", () => {
 });
 
 test("each ordering supports reverse and missing price/date remains last", () => {
-  const a = { destination: "大阪", price: 8000, discount_info: "20%", outbound_date: "9月30日" };
-  const b = { destination: "東京", price: 9000, discount_info: "30%", outbound_date: "10月1日" };
-  for (const order of ["price", "discount", "destination", "date"]) {
+  const a = { destination: "大阪", price: 8000, price_drop: 500, discount_info: "20%", outbound_date: "9月30日" };
+  const b = { destination: "東京", price: 9000, price_drop: 1200, discount_info: "30%", outbound_date: "10月1日" };
+  for (const order of ["price", "price_drop", "discount", "destination", "date"]) {
     const asc = compare(a, b, order, "asc", "2026-09-07");
     const desc = compare(a, b, order, "desc", "2026-09-07");
     assert.notEqual(asc, 0);
@@ -35,4 +35,12 @@ test("each ordering supports reverse and missing price/date remains last", () =>
       assert.ok(compare({}, a, order, direction, "2026-09-07") > 0);
     }
   }
+});
+
+test("price drop ordering uses the drop amount", () => {
+  const smallerDrop = { destination: "大阪", price_drop: 500 };
+  const largerDrop = { destination: "東京", price_drop: 1200 };
+  assert.ok(compare(smallerDrop, largerDrop, "price_drop", "asc", "2026-09-07") < 0);
+  assert.ok(compare(smallerDrop, largerDrop, "price_drop", "desc", "2026-09-07") > 0);
+  assert.ok(compare({}, largerDrop, "price_drop", "desc", "2026-09-07") > 0);
 });

@@ -120,7 +120,7 @@ def setup_scheduler() -> AsyncIOScheduler:
 
 
 def should_run_startup_catchup(config: dict, now: Optional[datetime] = None) -> bool:
-    """07:00 後啟動時，若今天尚未成功掃描就補跑一次。"""
+    """啟動時若今天尚未成功掃描，就立即補跑一次。"""
     sched_cfg = config.get("schedule", {})
     if not sched_cfg.get("enabled", True) or not sched_cfg.get("catch_up_on_start", True):
         return False
@@ -137,16 +137,6 @@ def should_run_startup_catchup(config: dict, now: Optional[datetime] = None) -> 
     else:
         current = current.astimezone(tz)
 
-    scheduled_today = tz.localize(datetime(
-        current.year,
-        current.month,
-        current.day,
-        int(sched_cfg.get("hour", 7)),
-        int(sched_cfg.get("minute", 0)),
-    ))
-    if current < scheduled_today:
-        return False
-
     latest = get_latest_successful_scan()
     if not latest or not latest.get("start_time"):
         return True
@@ -156,7 +146,7 @@ def should_run_startup_catchup(config: dict, now: Optional[datetime] = None) -> 
         latest_time = tz.localize(latest_time)
     else:
         latest_time = latest_time.astimezone(tz)
-    return latest_time < scheduled_today
+    return latest_time.date() != current.date()
 
 async def start_bot_and_scheduler():
     """啟動 Discord Bot 與背景排程"""
@@ -190,7 +180,7 @@ async def start_bot_and_scheduler():
 
         config = load_config()
         if should_run_startup_catchup(config):
-            logger.info("今天排定時間已過且尚無成功掃描，立即補跑每日 /scan")
+            logger.info("今天尚無成功掃描，啟動時立即執行每日 /scan")
             await execute_scan_and_notify()
 
     scheduler_task = asyncio.create_task(start_scheduler_after_ready())

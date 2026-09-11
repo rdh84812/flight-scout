@@ -58,6 +58,8 @@ function compareDeals(a, b, order, direction, referenceDate) {
     left = a.destination || null; right = b.destination || null;
   } else if (order === "discount") {
     left = discountPercent(a); right = discountPercent(b);
+  } else if (order === "price_drop") {
+    left = a.price_drop; right = b.price_drop;
   } else {
     left = a.price; right = b.price;
   }
@@ -155,7 +157,7 @@ $("resetFilters").addEventListener("click", () => {
   $("countryFilter").value = "";
   $("statusFilter").value = "";
   $("sortOrder").value = "price";
-  $("sortDirection").value = "asc";
+  $("sortDirection").value = "desc";
   applyFilters();
 });
 loadReport();

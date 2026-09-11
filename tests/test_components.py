@@ -349,7 +349,7 @@ class TestScannerComponents(unittest.TestCase):
         self.assertTrue(job.coalesce)
         self.assertEqual(job.max_instances, 1)
 
-    def test_startup_catchup_runs_only_after_schedule_without_today_success(self):
+    def test_startup_catchup_runs_when_today_has_no_successful_scan(self):
         import main
 
         config = {"schedule": {
@@ -360,19 +360,19 @@ class TestScannerComponents(unittest.TestCase):
             "catch_up_on_start": True,
         }}
         before_schedule = datetime(2026, 9, 9, 6, 59)
-        after_schedule = datetime(2026, 9, 9, 10, 0)
+        later_today = datetime(2026, 9, 9, 10, 0)
 
         with patch.object(main, "get_latest_successful_scan", return_value=None):
-            self.assertFalse(main.should_run_startup_catchup(config, before_schedule))
-            self.assertTrue(main.should_run_startup_catchup(config, after_schedule))
+            self.assertTrue(main.should_run_startup_catchup(config, before_schedule))
+            self.assertTrue(main.should_run_startup_catchup(config, later_today))
         with patch.object(main, "get_latest_successful_scan", return_value={
             "start_time": "2026-09-09T07:00:00"
         }):
-            self.assertFalse(main.should_run_startup_catchup(config, after_schedule))
+            self.assertFalse(main.should_run_startup_catchup(config, later_today))
         with patch.object(main, "get_latest_successful_scan", return_value={
             "start_time": "2026-09-08T14:00:00"
         }):
-            self.assertTrue(main.should_run_startup_catchup(config, after_schedule))
+            self.assertTrue(main.should_run_startup_catchup(config, later_today))
 
 
 class TestDiscordDelivery(unittest.IsolatedAsyncioTestCase):
