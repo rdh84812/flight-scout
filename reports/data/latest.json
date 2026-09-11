@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-12",
-  "generated_at": "2026-09-12T00:23:46+08:00",
-  "scan_id": 32,
+  "generated_at": "2026-09-12T00:37:01+08:00",
+  "scan_id": 33,
   "prompt": "華航，飛任何地方，桃園機場出發",
   "summary": {
     "total": 92,
-    "changed": 10,
+    "changed": 0,
     "new": 0,
-    "price_drops": 10,
+    "price_drops": 0,
     "lowest_price": 8401.0,
     "countries": [
       "中國",
@@ -50,10 +50,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 55 分鐘, TPE–CEB",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTI3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxcF9seRooEgoyMDI2LTEwLTAzMgJDSWoNCAISCS9tLzAxcF9seXIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEU1R2dvSTBVRVFBQm9EVkZkRU9EaHd5YzhC&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 8728.0,
-      "price_drop": 327.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTI3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxcF9seRooEgoyMDI2LTEwLTAzMgJDSWoNCAISCS9tLzAxcF9seXIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEU1R2dvSTBVRVFBQm9EVkZkRU9EaHd5YzhC&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "香港",
@@ -67,10 +67,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 1 小時 55 分鐘, TPE–HKG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzAzaDY0GicSCjIwMjYtMTAtMDMyAkNJagwIAhIIL20vMDNoNjRyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJeEdnb0kzMElRQUJvRFZGZEVPRGh3aXRNQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 8770.0,
-      "price_drop": 227.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzAzaDY0GicSCjIwMjYtMTAtMDMyAkNJagwIAhIIL20vMDNoNjRyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJeEdnb0kzMElRQUJvRFZGZEVPRGh3aXRNQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "馬尼拉",
@@ -84,7 +84,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 15 分鐘, TPE–MNL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxOTVwZBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAxOTVwZHIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEl5R2dvSTZFSVFBQm9EVkZkRU9EaHdwOU1C&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxOTVwZBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAxOTVwZHIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEl5R2dvSTZFSVFBQm9EVkZkRU9EaHdwOU1C&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -101,7 +101,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 35 分鐘, TPE–SGN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBobjRoGicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMGhuNGhyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJekdnb0lzRWtRQUJvRFZGZEVPRGh3aCtnQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBobjRoGicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMGhuNGhyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJekdnb0lzRWtRQUJvRFZGZEVPRGh3aCtnQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -118,7 +118,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 5 分鐘, TPE–PVG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzA2d2pmGicSCjIwMjYtMTAtMDMyAkNJagwIAhIIL20vMDZ3amZyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJMEdnb0k4RWtRQUJvRFZGZEVPRGh3MHVrQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzA2d2pmGicSCjIwMjYtMTAtMDMyAkNJagwIAhIIL20vMDZ3amZyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJMEdnb0k4RWtRQUJvRFZGZEVPRGh3MHVrQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -135,7 +135,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 35 分鐘, TPE–ICN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBoc3FmGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMGhzcWZyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJMUdnb0kvVW9RQUJvRFZGZEVPRGh3a08wQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBoc3FmGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMGhzcWZyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJMUdnb0kvVW9RQUJvRFZGZEVPRGh3a08wQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -152,7 +152,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 45 分鐘, TPE–BKK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbjJnGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMGZuMmdyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJMkdnb0lqVXdRQUJvRFZGZEVPRGh3MS9BQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbjJnGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMGZuMmdyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJMkdnb0lqVXdRQUJvRFZGZEVPRGh3MS9BQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -169,7 +169,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 1 小時 40 分鐘, TPE–OKA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTA1MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDcxeBooEgoyMDI2LTEwLTE0MgJDSWoNCAISCS9tLzBncDcxeHIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEUzR2dvSXJrMFFBQm9EVkZkRU9EaHcxUFFC&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTA1MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDcxeBooEgoyMDI2LTEwLTE0MgJDSWoNCAISCS9tLzBncDcxeHIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEUzR2dvSXJrMFFBQm9EVkZkRU9EaHcxUFFC&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -186,7 +186,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 15 分鐘, TPE–PUS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBodjdsGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMGh2N2xyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJM0dnb0k2RTBRQUJvRFZGZEVPRGh3alBZQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBodjdsGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMGh2N2xyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJM0dnb0k2RTBRQUJvRFZGZEVPRGh3alBZQg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -203,7 +203,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 4 小時 35 分鐘, TPE–SIN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzA2dDJ0GicSCjIwMjYtMTAtMDcyAkNJagwIAhIIL20vMDZ0MnRyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJNEdnb0lwVk1RQUJvRFZGZEVPRGh3dFljQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzA2dDJ0GicSCjIwMjYtMTAtMDcyAkNJagwIAhIIL20vMDZ0MnRyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJNEdnb0lwVk1RQUJvRFZGZEVPRGh3dFljQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -220,7 +220,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 15 分鐘, TPE–HAN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbmZmGicSCjIwMjYtMTAtMDYyAkNJagwIAhIIL20vMGZuZmZyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJNUdnb0lqbFVRQUJvRFZGZEVPRGh3bFkwQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbmZmGicSCjIwMjYtMTAtMDYyAkNJagwIAhIIL20vMGZuZmZyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJNUdnb0lqbFVRQUJvRFZGZEVPRGh3bFkwQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -237,7 +237,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 50 分鐘, TPE–DAD",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTAyMgJDSWoHCAESA1RQRXINCAISCS9tLzAyNnlxZhooEgoyMDI2LTEwLTA4MgJDSWoNCAISCS9tLzAyNnlxZnIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVE13R2dvSTRGZ1FBQm9EVkZkRU9EaHcxNWdD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTAyMgJDSWoHCAESA1RQRXINCAISCS9tLzAyNnlxZhooEgoyMDI2LTEwLTA4MgJDSWoNCAISCS9tLzAyNnlxZnIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVE13R2dvSTRGZ1FBQm9EVkZkRU9EaHcxNWdD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -254,7 +254,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 10 分鐘, TPE–KMJ",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZfMBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBncDZfMHIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEUxR2dvSTFsa1FBQm9EVkZkRU9EaHd6SnND&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZfMBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBncDZfMHIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEUxR2dvSTFsa1FBQm9EVkZkRU9EaHd6SnND&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -271,10 +271,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 25 分鐘, TPE–PEK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTA0MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxOTE0GicSCjIwMjYtMTAtMTAyAkNJagwIAhIIL20vMDE5MTRyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJYUNnalFYQkFBR2dOVVYwUTRPSEQ0cEFJPQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 12567.0,
-      "price_drop": 711.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTA0MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxOTE0GicSCjIwMjYtMTAtMTAyAkNJagwIAhIIL20vMDE5MTRyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRJYUNnalFYQkFBR2dOVVYwUTRPSEQ0cEFJPQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "吉隆坡",
@@ -288,7 +288,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 4 小時 40 分鐘, TPE–KUL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAzMgJDSWoHCAESA1RQRXIMCAISCC9tLzA0OWQxGicSCjIwMjYtMTAtMDkyAkNJagwIAhIIL20vMDQ5ZDFyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNeEdnb0k1RndRQUJvRFZGZEVPRGh3dDZVQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAzMgJDSWoHCAESA1RQRXIMCAISCC9tLzA0OWQxGicSCjIwMjYtMTAtMDkyAkNJagwIAhIIL20vMDQ5ZDFyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNeEdnb0k1RndRQUJvRFZGZEVPRGh3dDZVQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -305,24 +305,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 5 小時 35 分鐘, TPE–CGK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzA0NHJ2GicSCjIwMjYtMTEtMDEyAkNJagwIAhIIL20vMDQ0cnZyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNeUdnb0lpRjBRQUJvRFZGZEVPRGh3cWFZQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "unchanged",
-      "previous_price": null,
-      "price_drop": null
-    },
-    {
-      "destination": "深圳市",
-      "country": "中國",
-      "outbound_date": "9月27日週日",
-      "return_date": "10月4日週日",
-      "price": 12039.0,
-      "original_price": null,
-      "currency": "TWD",
-      "discount_info": "",
-      "airline": "",
-      "flight_number": "",
-      "flight_details": "直達, 1 小時 55 分鐘, TPE–SZX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBsYm12GicSCjIwMjYtMTAtMDQyAkNJagwIAhIIL20vMGxibXZyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNekdnb0loMTRRQUJvRFZGZEVPRGh3dTZrQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzA0NHJ2GicSCjIwMjYtMTEtMDEyAkNJagwIAhIIL20vMDQ0cnZyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNeUdnb0lpRjBRQUJvRFZGZEVPRGh3cWFZQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -339,7 +322,24 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 5 分鐘, TPE–CAN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzAzOTNnGicSCjIwMjYtMTAtMDMyAkNJagwIAhIIL20vMDM5M2dyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNMEdnb0lrRjRRQUJvRFZGZEVPRGh3MTZrQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzAzOTNnGicSCjIwMjYtMTAtMDMyAkNJagwIAhIIL20vMDM5M2dyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNekdnb0lrRjRRQUJvRFZGZEVPRGh3MTZrQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
+    },
+    {
+      "destination": "深圳市",
+      "country": "中國",
+      "outbound_date": "9月27日週日",
+      "return_date": "10月4日週日",
+      "price": 12048.0,
+      "original_price": null,
+      "currency": "TWD",
+      "discount_info": "",
+      "airline": "",
+      "flight_number": "",
+      "flight_details": "直達, 1 小時 55 分鐘, TPE–SZX",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBsYm12GicSCjIwMjYtMTAtMDQyAkNJagwIAhIIL20vMGxibXZyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNMEdnb0lrRjRRQUJvRFZGZEVPRGh3MTZrQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -356,7 +356,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 5 分鐘, TPE–KOJ",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA0OXdtGicSCjIwMjYtMDktMjQyAkNJagwIAhIIL20vMDQ5d21yBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRBYUNnaWdYeEFBR2dOVVYwUTRPSENlclFJPQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA0OXdtGicSCjIwMjYtMDktMjQyAkNJagwIAhIIL20vMDQ5d21yBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRBYUNnaWdYeEFBR2dOVVYwUTRPSENlclFJPQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -373,7 +373,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時, TPE–TOY",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDU5cRooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzBncDU5cXIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVE0xR2dvSTBGOFFBQm9EVkZkRU9EaHd0cTRD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDU5cRooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzBncDU5cXIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVE0xR2dvSTBGOFFBQm9EVkZkRU9EaHd0cTRD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -390,7 +390,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 35 分鐘, TPE–TAK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZybhooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBncDZybnIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEV5R2dvSTgyQVFBQm9EVkZkRU9EaHd1cklD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZybhooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBncDZybnIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEV5R2dvSTgyQVFBQm9EVkZkRU9EaHd1cklD&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -407,7 +407,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 20 分鐘, TPE–FUK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIwMgJDSWoHCAESA1RQRXIMCAISCC9tLzBncWtkGicSCjIwMjYtMDktMjYyAkNJagwIAhIIL20vMGdxa2RyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNMkdnb0kyR1lRQUJvRFZGZEVPRGh3NGNRQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIwMgJDSWoHCAESA1RQRXIMCAISCC9tLzBncWtkGicSCjIwMjYtMDktMjYyAkNJagwIAhIIL20vMGdxa2RyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNMkdnb0kyR1lRQUJvRFZGZEVPRGh3NGNRQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -424,7 +424,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 50 分鐘, TPE–NGO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTA1MgJDSWoHCAESA1RQRXIMCAISCC9tLzBncWZ5GicSCjIwMjYtMTAtMTQyAkNJagwIAhIIL20vMGdxZnlyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNM0dnb0k0V2NRQUJvRFZGZEVPRGh3azhnQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTA1MgJDSWoHCAESA1RQRXIMCAISCC9tLzBncWZ5GicSCjIwMjYtMTAtMTQyAkNJagwIAhIIL20vMGdxZnlyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNM0dnb0k0V2NRQUJvRFZGZEVPRGh3azhnQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -441,7 +441,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 20 分鐘, TPE–HIJ",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBnM2N3GicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMGczY3dyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNNEdnb0l3MmdRQUJvRFZGZEVPRGh3eU1vQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBnM2N3GicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMGczY3dyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNNEdnb0l3MmdRQUJvRFZGZEVPRGh3eU1vQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -458,7 +458,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 25 分鐘, TPE–NRT",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA3ZGZrGicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMDdkZmtyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNNUdnb0ltV3dRQUJvRFZGZEVPRGh3bDlZQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA3ZGZrGicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMDdkZmtyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRNNUdnb0ltV3dRQUJvRFZGZEVPRGh3bDlZQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -475,7 +475,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 45 分鐘, TPE–KIX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkcXl3GicSCjIwMjYtMDktMjQyAkNJagwIAhIIL20vMGRxeXdyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRd0dnb0ltbThRQUJvRFZGZEVPRGh3MmQ4Qw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkcXl3GicSCjIwMjYtMDktMjQyAkNJagwIAhIIL20vMGRxeXdyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRd0dnb0ltbThRQUJvRFZGZEVPRGh3MmQ4Qw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -492,7 +492,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 4 小時 40 分鐘, TPE–PEN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBnNnhxGicSCjIwMjYtMTAtMDQyAkNJagwIAhIIL20vMGc2eHFyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRReEdnb0lzWEFRQUJvRFZGZEVPRGh3dHVNQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXIMCAISCC9tLzBnNnhxGicSCjIwMjYtMTAtMDQyAkNJagwIAhIIL20vMGc2eHFyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRReEdnb0lzWEFRQUJvRFZGZEVPRGh3dHVNQw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -509,7 +509,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 55 分鐘, TPE–ROR",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTEyMgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbmh5GicSCjIwMjYtMTAtMjEyAkNJagwIAhIIL20vMGZuaHlyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRReUdnb0l3WGtRQUJvRFZGZEVPRGh3cElBRA&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTEyMgJDSWoHCAESA1RQRXIMCAISCC9tLzBmbmh5GicSCjIwMjYtMTAtMjEyAkNJagwIAhIIL20vMGZuaHlyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRReUdnb0l3WGtRQUJvRFZGZEVPRGh3cElBRA&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -526,7 +526,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 3 小時 50 分鐘, TPE–CNX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXINCAISCS9tLzAxaHI1OBooEgoyMDI2LTEwLTA3MgJDSWoNCAISCS9tLzAxaHI1OHIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFF6R2dvSXpYb1FBQm9EVkZkRU9EaHczNE1E&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXINCAISCS9tLzAxaHI1OBooEgoyMDI2LTEwLTA3MgJDSWoNCAISCS9tLzAxaHI1OHIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFF6R2dvSXpYb1FBQm9EVkZkRU9EaHczNE1E&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -543,7 +543,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 5 小時 30 分鐘, TPE–DPS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXINCAISCS9tLzAybmJoMRooEgoyMDI2LTExLTA2MgJDSWoNCAISCS9tLzAybmJoMXIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFEwR2dvSTNIb1FBQm9EVkZkRU9EaHdqb1FE&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXINCAISCS9tLzAybmJoMRooEgoyMDI2LTExLTA2MgJDSWoNCAISCS9tLzAybmJoMXIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFEwR2dvSTNIb1FBQm9EVkZkRU9EaHdqb1FE&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -560,7 +560,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 19 小時 5 分鐘, TPE–TKG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTExMgJDSWoHCAESA1RQRXINCAISCS9tLzA1cGNodBooEgoyMDI2LTEwLTE3MgJDSWoNCAISCS9tLzA1cGNodHIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFExR2dvSW1Yd1FBQm9EVkZkRU9EaHc1SWdE&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTExMgJDSWoHCAESA1RQRXINCAISCS9tLzA1cGNodBooEgoyMDI2LTEwLTE3MgJDSWoNCAISCS9tLzA1cGNodHIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVFExR2dvSW1Yd1FBQm9EVkZkRU9EaHc1SWdE&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -577,7 +577,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 7 小時 50 分鐘, TPE–CXR",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTExMgJDSWoHCAESA1RQRXINCAISCS9tLzA0NGNqdhooEgoyMDI2LTEwLTE5MgJDSWoNCAISCS9tLzA0NGNqdnIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRMkdnc0lob01CRUFBYUExUlhSRGc0Y0xxZUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTExMgJDSWoHCAESA1RQRXINCAISCS9tLzA0NGNqdhooEgoyMDI2LTEwLTE5MgJDSWoNCAISCS9tLzA0NGNqdnIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRMkdnc0lob01CRUFBYUExUlhSRGc0Y0xxZUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -594,7 +594,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 5 小時, TPE–ASJ",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTEwMgJDSWoHCAESA1RQRXINCAISCS9tLzBjeDY5NBooEgoyMDI2LTEwLTE3MgJDSWoNCAISCS9tLzBjeDY5NHIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVGNhQ3dqQWhRRVFBQm9EVkZkRU9EaHdtNllE&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTEwMgJDSWoHCAESA1RQRXINCAISCS9tLzBjeDY5NBooEgoyMDI2LTEwLTE3MgJDSWoNCAISCS9tLzBjeDY5NHIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVGNhQ3dqQWhRRVFBQm9EVkZkRU9EaHdtNllE&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -611,7 +611,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 14 小時 25 分鐘, TPE–SRG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzA0OTZtaBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzA0OTZtaHIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRM0dnc0k1WVVCRUFBYUExUlhSRGc0Y0pDbkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzA0OTZtaBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzA0OTZtaHIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRM0dnc0k1WVVCRUFBYUExUlhSRGc0Y0pDbkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -628,7 +628,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 35 分鐘, TPE–TAO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTAyMgJDSWoHCAESA1RQRXINCAISCS9tLzAxbDNzMBooEgoyMDI2LTEwLTA5MgJDSWoNCAISCS9tLzAxbDNzMHIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRNEdnc0k4SVVCRUFBYUExUlhSRGc0Y0xLbkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTAyMgJDSWoHCAESA1RQRXINCAISCS9tLzAxbDNzMBooEgoyMDI2LTEwLTA5MgJDSWoNCAISCS9tLzAxbDNzMHIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRNEdnc0k4SVVCRUFBYUExUlhSRGc0Y0xLbkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -645,7 +645,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 14 小時 50 分鐘, TPE–YIA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBkZzZ5eBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBkZzZ5eHIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRNUdnc0krb1VCRUFBYUExUlhSRGc0Y05LbkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBkZzZ5eBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBkZzZ5eHIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRNUdnc0krb1VCRUFBYUExUlhSRGc0Y05LbkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -662,7 +662,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 6 小時 40 分鐘, TPE–TDX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxdDJxMxooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAxdDJxM3IHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVd0dnc0lsNHNCRUFBYUExUlhSRGc0Y0phNEF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxdDJxMxooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAxdDJxM3IHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVd0dnc0lsNHNCRUFBYUExUlhSRGc0Y0phNEF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -679,7 +679,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 28 小時 35 分鐘, TPE–VII",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXINCAISCS9tLzA1M2Y2ORooEgoyMDI2LTEwLTMxMgJDSWoNCAISCS9tLzA1M2Y2OXIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVeEdnc0kzWXNCRUFBYUExUlhSRGc0Y1BPNUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXINCAISCS9tLzA1M2Y2ORooEgoyMDI2LTEwLTMxMgJDSWoNCAISCS9tLzA1M2Y2OXIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVeEdnc0kzWXNCRUFBYUExUlhSRGc0Y1BPNUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -696,7 +696,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 11 小時 5 分鐘, TPE–KBV",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzAxZzltZhooEgoyMDI2LTA5LTI1MgJDSWoNCAISCS9tLzAxZzltZnIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVeUdnc0luSXdCRUFBYUExUlhSRGc0Y0xxN0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzAxZzltZhooEgoyMDI2LTA5LTI1MgJDSWoNCAISCS9tLzAxZzltZnIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVeUdnc0luSXdCRUFBYUExUlhSRGc0Y0xxN0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -713,10 +713,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 10 小時 20 分鐘, TPE–JHB",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzAyMDdzaBooEgoyMDI2LTEwLTI1MgJDSWoNCAISCS9tLzAyMDdzaHIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVekdnc0k1WTRCRUFBYUExUlhSRGc0Y012REF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 23121.0,
-      "price_drop": 4844.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzAyMDdzaBooEgoyMDI2LTEwLTI1MgJDSWoNCAISCS9tLzAyMDdzaHIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVekdnc0k1WTRCRUFBYUExUlhSRGc0Y012REF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "札幌市",
@@ -730,7 +730,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 4 小時, TPE–CTS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDVsNhooEgoyMDI2LTEwLTA3MgJDSWoNCAISCS9tLzBncDVsNnIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMEdnc0kzcFFCRUFBYUExUlhSRGc0Y0xMV0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDVsNhooEgoyMDI2LTEwLTA3MgJDSWoNCAISCS9tLzBncDVsNnIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMEdnc0kzcFFCRUFBYUExUlhSRGc0Y0xMV0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -747,24 +747,24 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 8 小時 30 分鐘, TPE–KCH",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTEwMgJDSWoHCAESA1RQRXINCAISCS9tLzAxM185ehooEgoyMDI2LTEwLTE5MgJDSWoNCAISCS9tLzAxM185enIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMUdnc0lsWllCRUFBYUExUlhSRGc0Y1BUYUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 24085.0,
-      "price_drop": 4864.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTEwMgJDSWoHCAESA1RQRXINCAISCS9tLzAxM185ehooEgoyMDI2LTEwLTE5MgJDSWoNCAISCS9tLzAxM185enIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMUdnc0lsWllCRUFBYUExUlhSRGc0Y1BUYUF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "普吉市",
       "country": "泰國",
       "outbound_date": "9月17日週四",
       "return_date": "9月23日週三",
-      "price": 19464.0,
+      "price": 19478.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 8 小時 5 分鐘, TPE–HKT",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBmX3IxXxooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBmX3IxX3IHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMkdnc0lpSmdCRUFBYUExUlhSRGc0Y1BYZ0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBmX3IxXxooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBmX3IxX3IHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVMkdnc0lscGdCRUFBYUExUlhSRGc0Y0tIaEF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -781,7 +781,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 2 小時 20 分鐘, TPE–WUH",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBsM2N5GicSCjIwMjYtMTAtMDgyAkNJagwIAhIIL20vMGwzY3lyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURXdHZ3NJaDVvQkVBQWFBMVJYUkRnNGNKdm5Bdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBsM2N5GicSCjIwMjYtMTAtMDgyAkNJagwIAhIIL20vMGwzY3lyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURXdHZ3NJaDVvQkVBQWFBMVJYUkRnNGNKdm5Bdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -798,7 +798,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 10 小時 35 分鐘, TPE–USM",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTA0MgJDSWoHCAESA1RQRXINCAISCS9tLzAzM2NzdhooEgoyMDI2LTEwLTEzMgJDSWoNCAISCS9tLzAzM2NzdnIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVM0dnc0lscUFCRUFBYUExUlhSRGc0Y01qNkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTA0MgJDSWoHCAESA1RQRXINCAISCS9tLzAzM2NzdhooEgoyMDI2LTEwLTEzMgJDSWoNCAISCS9tLzAzM2NzdnIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVM0dnc0lscUFCRUFBYUExUlhSRGc0Y01qNkF3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -815,7 +815,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 15 小時 20 分鐘, TPE–PKU",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAzYmNycBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAzYmNycHIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVNEdnc0l2cUVCRUFBYUExUlhSRGc0Y052K0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAzYmNycBooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAzYmNycHIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVNEdnc0l2cUVCRUFBYUExUlhSRGc0Y052K0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -832,7 +832,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 10 小時 55 分鐘, TPE–IZO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxeDgwcBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzAxeDgwcHIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFMkdnc0l4cUVCRUFBYUExUlhSRGc0Y1BUK0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAxeDgwcBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzAxeDgwcHIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFMkdnc0l4cUVCRUFBYUExUlhSRGc0Y1BUK0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -849,7 +849,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 11 小時 30 分鐘, TPE–TKS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZyNRooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBncDZyNXIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVNUdnc0l4cUVCRUFBYUExUlhSRGc0Y1BUK0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzBncDZyNRooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzBncDZyNXIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRVNUdnc0l4cUVCRUFBYUExUlhSRGc0Y1BUK0F3PT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -866,7 +866,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 10 小時 10 分鐘, TPE–SUB",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXINCAISCS9tLzAxZjR4ZBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzAxZjR4ZHIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZd0dnc0lvcU1CRUFBYUExUlhSRGc0Y0t5RUJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXINCAISCS9tLzAxZjR4ZBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzAxZjR4ZHIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZd0dnc0lvcU1CRUFBYUExUlhSRGc0Y0t5RUJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -883,7 +883,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 13 小時 40 分鐘, TPE–UPG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAyMmg0NxooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAyMmg0N3IHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZeEdnc0k0cTBCRUFBYUExUlhSRGc0Y01lbEJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAyMmg0NxooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAyMmg0N3IHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZeEdnc0k0cTBCRUFBYUExUlhSRGc0Y01lbEJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -900,7 +900,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 12 小時 10 分鐘, TPE–BPN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXINCAISCS9tLzAybGI2eBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzAybGI2eHIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZeUdnc0lncmtCRUFBYUExUlhSRGc0Y0pISkJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXINCAISCS9tLzAybGI2eBooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzAybGI2eHIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZeUdnc0lncmtCRUFBYUExUlhSRGc0Y0pISkJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -917,7 +917,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 10 小時 55 分鐘, TPE–KNO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXINCAISCS9tLzAxX2RfbhooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzAxX2RfbnIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZekdnc0kwTUFCRUFBYUExUlhSRGc0Y0puaEJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXINCAISCS9tLzAxX2RfbhooEgoyMDI2LTA5LTI0MgJDSWoNCAISCS9tLzAxX2RfbnIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZekdnc0kwTUFCRUFBYUExUlhSRGc0Y0puaEJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -934,7 +934,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 9 小時 20 分鐘, TPE–MMB",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXINCAISCS9tLzBoMHI1dhooEgoyMDI2LTEwLTA1MgJDSWoNCAISCS9tLzBoMHI1dnIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZMEdnc0loOFVCRUFBYUExUlhSRGc0Y0pydkJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTI4MgJDSWoHCAESA1RQRXINCAISCS9tLzBoMHI1dhooEgoyMDI2LTEwLTA1MgJDSWoNCAISCS9tLzBoMHI1dnIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZMEdnc0loOFVCRUFBYUExUlhSRGc0Y0pydkJBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -944,14 +944,14 @@
       "country": "美國",
       "outbound_date": "9月21日週一",
       "return_date": "9月28日週一",
-      "price": 28105.0,
+      "price": 28138.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 10 小時 45 分鐘, TPE–SEA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBkOWpyGicSCjIwMjYtMDktMjgyAkNJagwIAhIIL20vMGQ5anJyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUWTFHZ3NJeWRzQkVBQWFBMVJYUkRnNGNMVzJCUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBkOWpyGicSCjIwMjYtMDktMjgyAkNJagwIAhIIL20vMGQ5anJyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUWTFHZ3NJNnRzQkVBQWFBMVJYUkRnNGNKMjNCUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -968,7 +968,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 11 小時 25 分鐘, TPE–SFO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkNmxwGicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMGQ2bHByBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUWTJHZ3NJeXQ4QkVBQWFBMVJYUkRnNGNJdkRCUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkNmxwGicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMGQ2bHByBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUWTJHZ3NJeXQ4QkVBQWFBMVJYUkRnNGNJdkRCUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -985,10 +985,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 8 小時 40 分鐘, TPE–BNE",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzAxYjhqahooEgoyMDI2LTEwLTI2MgJDSWoNCAISCS9tLzAxYjhqanIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZM0dnc0lzZVlCRUFBYUExUlhSRGc0Y003WUJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 31055.0,
-      "price_drop": 1566.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXINCAISCS9tLzAxYjhqahooEgoyMDI2LTEwLTI2MgJDSWoNCAISCS9tLzAxYjhqanIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZM0dnc0lzZVlCRUFBYUExUlhSRGc0Y003WUJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "奧克蘭",
@@ -1002,7 +1002,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 14 小時 5 分鐘, TPE–AKL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxMnRzGicSCjIwMjYtMTAtMjcyAkNJagwIAhIIL20vMDEydHNyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURXpHZ3NJNXVzQkVBQWFBMVJYUkRnNGNON3BCUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxMnRzGicSCjIwMjYtMTAtMjcyAkNJagwIAhIIL20vMDEydHNyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURXpHZ3NJNXVzQkVBQWFBMVJYUkRnNGNON3BCUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1019,7 +1019,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 12 小時 30 分鐘, TPE–PHX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTA5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkMzV5GicSCjIwMjYtMTAtMTgyAkNJagwIAhIIL20vMGQzNXlyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFYUN3aXA3Z0VRQUJvRFZGZEVPRGh3Mi9FRg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTA5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBkMzV5GicSCjIwMjYtMTAtMTgyAkNJagwIAhIIL20vMGQzNXlyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRFYUN3aXA3Z0VRQUJvRFZGZEVPRGh3Mi9FRg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1036,7 +1036,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 5 小時 10 分鐘, TPE–ILO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXINCAISCS9tLzA0d2RiMRooEgoyMDI2LTA5LTI1MgJDSWoNCAISCS9tLzA0d2RiMXIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZNEdnc0k0ZTRCRUFBYUExUlhSRGc0Y0l6ekJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXINCAISCS9tLzA0d2RiMRooEgoyMDI2LTA5LTI1MgJDSWoNCAISCS9tLzA0d2RiMXIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZNEdnc0k0ZTRCRUFBYUExUlhSRGc0Y0l6ekJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1053,7 +1053,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 11 小時 10 分鐘, TPE–DVO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXINCAISCS9tLzAyZ24xeBooEgoyMDI2LTEwLTMxMgJDSWoNCAISCS9tLzAyZ24xeHIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZNUdnc0krdkVCRUFBYUExUlhSRGc0Y0pyOUJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXINCAISCS9tLzAyZ24xeBooEgoyMDI2LTEwLTMxMgJDSWoNCAISCS9tLzAyZ24xeHIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZNUdnc0krdkVCRUFBYUExUlhSRGc0Y0pyOUJRPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1070,7 +1070,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 11 小時 55 分鐘, TPE–LAX",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhopEgoyMDI2LTA5LTIxMgJDSWoHCAESA1RQRXIOCAISCi9tLzAzMHFiM3QaKRIKMjAyNi0wOS0yODICQ0lqDggCEgovbS8wMzBxYjN0cgcIARIDVFBFUgNUV0R6gAFDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVGN3R2dzSXF2SUJFQUFhQTFSWFJEZzRjTEwrQlE9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhopEgoyMDI2LTA5LTIxMgJDSWoHCAESA1RQRXIOCAISCi9tLzAzMHFiM3QaKRIKMjAyNi0wOS0yODICQ0lqDggCEgovbS8wMzBxYjN0cgcIARIDVFBFUgNUV0R6gAFDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVGN3R2dzSXF2SUJFQUFhQTFSWFJEZzRjTEwrQlE9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1087,7 +1087,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 9 小時 20 分鐘, TPE–MEL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXINCAISCS9tLzBjaGd6bRooEgoyMDI2LTExLTA0MgJDSWoNCAISCS9tLzBjaGd6bXIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVFVhQ3dqRThnRVFBQm9EVkZkRU9EaHdoUDhG&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXINCAISCS9tLzBjaGd6bRooEgoyMDI2LTExLTA0MgJDSWoNCAISCS9tLzBjaGd6bXIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVFVhQ3dqRThnRVFBQm9EVkZkRU9EaHdoUDhG&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1104,7 +1104,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 9 小時 25 分鐘, TPE–SYD",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzA2eTU3GicSCjIwMjYtMTAtMzEyAkNJagwIAhIIL20vMDZ5NTdyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURXhHZ3NJaC9NQkVBQWFBMVJYUkRnNGNOaUFCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzA2eTU3GicSCjIwMjYtMTAtMzEyAkNJagwIAhIIL20vMDZ5NTdyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURXhHZ3NJaC9NQkVBQWFBMVJYUkRnNGNOaUFCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1121,7 +1121,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 14 小時 40 分鐘, TPE–FCO",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTA3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA2YzYyGicSCjIwMjYtMTEtMTUyAkNJagwIAhIIL20vMDZjNjJyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3hHZ3NJdUlnQ0VBQWFBMVJYUkRnNGNLakVCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTA3MgJDSWoHCAESA1RQRXIMCAISCC9tLzA2YzYyGicSCjIwMjYtMTEtMTUyAkNJagwIAhIIL20vMDZjNjJyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3hHZ3NJdUlnQ0VBQWFBMVJYUkRnNGNLakVCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1131,14 +1131,14 @@
       "country": "加拿大",
       "outbound_date": "10月26日週一",
       "return_date": "11月1日週日",
-      "price": 34535.0,
+      "price": 34560.0,
       "original_price": null,
       "currency": "TWD",
       "discount_info": "",
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 10 小時 25 分鐘, TPE–YVR",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzA4MGgyGicSCjIwMjYtMTEtMDEyAkNJagwIAhIIL20vMDgwaDJyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3lHZ3NJNTQwQ0VBQWFBMVJYUkRnNGNLWFZCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzA4MGgyGicSCjIwMjYtMTEtMDEyAkNJagwIAhIIL20vMDgwaDJyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3lHZ3NJZ0k0Q0VBQWFBMVJYUkRnNGNQVFZCZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1155,7 +1155,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 13 小時 15 分鐘, TPE–PRG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzA1eXdnGicSCjIwMjYtMTAtMDcyAkNJagwIAhIIL20vMDV5d2dyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZYUN3amdqd0lRQUJvRFZGZEVPRGh3dU5zRw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTAxMgJDSWoHCAESA1RQRXIMCAISCC9tLzA1eXdnGicSCjIwMjYtMTAtMDcyAkNJagwIAhIIL20vMDV5d2dyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRZYUN3amdqd0lRQUJvRFZGZEVPRGh3dU5zRw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1172,7 +1172,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 14 小時 15 分鐘, TPE–VIE",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmaHA5GicSCjIwMjYtMTEtMDMyAkNJagwIAhIIL20vMGZocDlyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRnYUN3aTZrQUlRQUJvRFZGZEVPRGh3MWQwRw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI2MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmaHA5GicSCjIwMjYtMTEtMDMyAkNJagwIAhIIL20vMGZocDlyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRnYUN3aTZrQUlRQUJvRFZGZEVPRGh3MWQwRw&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1189,7 +1189,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 14 小時 50 分鐘, TPE–AMS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTEwLTE1MgJDSWoHCAESA1RQRXILCAISBy9tLzBrM3AaJhIKMjAyNi0xMC0yNDICQ0lqCwgCEgcvbS8wazNwcgcIARIDVFBFUgNUV0R6gAFDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEl3R2dzSW1wY0NFQUFhQTFSWFJEZzRjSUh6Qmc9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTEwLTE1MgJDSWoHCAESA1RQRXILCAISBy9tLzBrM3AaJhIKMjAyNi0xMC0yNDICQ0lqCwgCEgcvbS8wazNwcgcIARIDVFBFUgNUV0R6gAFDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVEl3R2dzSW1wY0NFQUFhQTFSWFJEZzRjSUh6Qmc9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1206,7 +1206,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 15 小時, TPE–FRA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzAyejBqGicSCjIwMjYtMTEtMDMyAkNJagwIAhIIL20vMDJ6MGpyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURTBHZ3NJNmFnQ0VBQWFBMVJYUkRnNGNOMnFCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI1MgJDSWoHCAESA1RQRXIMCAISCC9tLzAyejBqGicSCjIwMjYtMTEtMDMyAkNJagwIAhIIL20vMDJ6MGpyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURTBHZ3NJNmFnQ0VBQWFBMVJYUkRnNGNOMnFCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1223,7 +1223,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 15 小時 10 分鐘, TPE–LHR",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTEyMgJDSWoHCAESA1RQRXIMCAISCC9tLzA0anBsGicSCjIwMjYtMTAtMjAyAkNJagwIAhIIL20vMDRqcGxyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3pHZ3NJMDZvQ0VBQWFBMVJYUkRnNGNNR3dCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTEyMgJDSWoHCAESA1RQRXIMCAISCC9tLzA0anBsGicSCjIwMjYtMTAtMjAyAkNJagwIAhIIL20vMDRqcGxyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUY3pHZ3NJMDZvQ0VBQWFBMVJYUkRnNGNNR3dCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1240,7 +1240,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 13 小時 25 分鐘, TPE–YYC",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTA1MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxcjMyGicSCjIwMjYtMTEtMTQyAkNJagwIAhIIL20vMDFyMzJyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzFHZ3NJcGF3Q0VBQWFBMVJYUkRnNGNObTFCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTA1MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxcjMyGicSCjIwMjYtMTEtMTQyAkNJagwIAhIIL20vMDFyMzJyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzFHZ3NJcGF3Q0VBQWFBMVJYUkRnNGNObTFCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1257,10 +1257,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 15 小時 9 分鐘, TPE–YEG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBubGg3GicSCjIwMjYtMTEtMDUyAkNJagwIAhIIL20vMG5saDdyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzBHZ3NJcGF3Q0VBQWFBMVJYUkRnNGNObTFCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 40117.0,
-      "price_drop": 1680.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBubGg3GicSCjIwMjYtMTEtMDUyAkNJagwIAhIIL20vMG5saDdyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzBHZ3NJcGF3Q0VBQWFBMVJYUkRnNGNObTFCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "聖地亞哥",
@@ -1274,10 +1274,10 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 20 分鐘, TPE–SAN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIwMgJDSWoHCAESA1RQRXIMCAISCC9tLzA3MXZyGicSCjIwMjYtMDktMjgyAkNJagwIAhIIL20vMDcxdnJyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzJHZ3NJcXJzQ0VBQWFBMVJYUkRnNGNLSGxCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 135051.0,
-      "price_drop": 94689.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIwMgJDSWoHCAESA1RQRXIMCAISCC9tLzA3MXZyGicSCjIwMjYtMDktMjgyAkNJagwIAhIIL20vMDcxdnJyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzJHZ3NJcXJzQ0VBQWFBMVJYUkRnNGNLSGxCdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "聖荷西",
@@ -1291,7 +1291,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 55 分鐘, TPE–SJC",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMDR2GicSCjIwMjYtMDktMjgyAkNJagwIAhIIL20vMGYwNHZyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzNHZ3NJbXJ3Q0VBQWFBMVJYUkRnNGNJUG9Cdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMDR2GicSCjIwMjYtMDktMjgyAkNJagwIAhIIL20vMGYwNHZyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzNHZ3NJbXJ3Q0VBQWFBMVJYUkRnNGNJUG9Cdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1308,7 +1308,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 19 小時 9 分鐘, TPE–CHC",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXINCAISCS9tLzAyeWM1YhooEgoyMDI2LTExLTA0MgJDSWoNCAISCS9tLzAyeWM1YnIHCAESA1RQRVIDVFdEenxDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVE1hQ3dpcXdBSVFBQm9EVkZkRU9EaHdpZlVI&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXINCAISCS9tLzAyeWM1YhooEgoyMDI2LTExLTA0MgJDSWoNCAISCS9tLzAyeWM1YnIHCAESA1RQRVIDVFdEenxDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaEpFWldGc1EyOXVjM1J5WVdsdWRITXdMVE1hQ3dpcXdBSVFBQm9EVkZkRU9EaHdpZlVI&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1325,7 +1325,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "直達, 15 小時, TPE–JFK",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAyXzI4NhooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAyXzI4NnIHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRjNEdnc0lxc1lDRUFBYUExUlhSRGc0Y0lhSUNBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXINCAISCS9tLzAyXzI4NhooEgoyMDI2LTA5LTIzMgJDSWoNCAISCS9tLzAyXzI4NnIHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRjNEdnc0lxc1lDRUFBYUExUlhSRGc0Y0lhSUNBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1342,7 +1342,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 29 小時 46 分鐘, TPE–MIA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMnYwGicSCjIwMjYtMDktMjkyAkNJagwIAhIIL20vMGYydjByBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzVHZ3NJcXNnQ0VBQWFBMVJYUkRnNGNMQ09DQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIxMgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMnYwGicSCjIwMjYtMDktMjkyAkNJagwIAhIIL20vMGYydjByBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUYzVHZ3NJcXNnQ0VBQWFBMVJYUkRnNGNMQ09DQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1359,7 +1359,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 19 小時, TPE–WLG",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXIMCAISCC9tLzA4NTNnGicSCjIwMjYtMTEtMDQyAkNJagwIAhIIL20vMDg1M2dyBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRYUN3aVl5d0lRQUJvRFZGZEVPRGh3dFpjSQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTI5MgJDSWoHCAESA1RQRXIMCAISCC9tLzA4NTNnGicSCjIwMjYtMTEtMDQyAkNJagwIAhIIL20vMDg1M2dyBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRRYUN3aVl5d0lRQUJvRFZGZEVPRGh3dFpjSQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1376,7 +1376,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 16 小時 5 分鐘, TPE–ADL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTExLTAyMgJDSWoHCAESA1RQRXILCAISBy9tLzBtZ3AaJhIKMjAyNi0xMS0xMTICQ0lqCwgCEgcvbS8wbWdwcgcIARIDVFBFUgNUV0R6gAFDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVGd3R2dzSXh0SUNFQUFhQTFSWFJEZzRjTml1Q0E9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTExLTAyMgJDSWoHCAESA1RQRXILCAISBy9tLzBtZ3AaJhIKMjAyNi0xMS0xMTICQ0lqCwgCEgcvbS8wbWdwcgcIARIDVFBFUgNUV0R6gAFDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVGd3R2dzSXh0SUNFQUFhQTFSWFJEZzRjTml1Q0E9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1393,7 +1393,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 23 小時 47 分鐘, TPE–SMF",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIxMgJDSWoHCAESA1RQRXIMCAISCC9tLzA3YmNuGicSCjIwMjYtMDktMjgyAkNJagwIAhIIL20vMDdiY25yBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3hHZ3NJdXRRQ0VBQWFBMVJYUkRnNGNOeTBDQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTIxMgJDSWoHCAESA1RQRXIMCAISCC9tLzA3YmNuGicSCjIwMjYtMDktMjgyAkNJagwIAhIIL20vMDdiY25yBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3hHZ3NJdXRRQ0VBQWFBMVJYUkRnNGNOeTBDQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1410,7 +1410,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 24 小時 15 分鐘, TPE–BCN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTI3MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxZjYyGicSCjIwMjYtMTItMDYyAkNJagwIAhIIL20vMDFmNjJyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3lHZ3NJc09RQ0VBQWFBMVJYUkRnNGNJbm5DQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTI3MgJDSWoHCAESA1RQRXIMCAISCC9tLzAxZjYyGicSCjIwMjYtMTItMDYyAkNJagwIAhIIL20vMDFmNjJyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3lHZ3NJc09RQ0VBQWFBMVJYUkRnNGNJbm5DQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1420,17 +1420,17 @@
       "country": "西班牙",
       "outbound_date": "10月18日週日",
       "return_date": "10月24日週六",
-      "price": 45621.0,
+      "price": 45659.0,
       "original_price": 57737.0,
       "currency": "TWD",
       "discount_info": "比平時便宜 21%",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 20 小時 50 分鐘, TPE–MAD",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzA1Nl95GicSCjIwMjYtMTAtMjQyAkNJagwIAhIIL20vMDU2X3lyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURTRHZ3NJdGVRQ0VBQWFBMVJYUkRnNGNKbm5DQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 46821.0,
-      "price_drop": 1200.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTE4MgJDSWoHCAESA1RQRXIMCAISCC9tLzA1Nl95GicSCjIwMjYtMTAtMjQyAkNJagwIAhIIL20vMDU2X3lyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xURTRHZ3NJMitRQ0VBQWFBMVJYUkRnNGNKSG9DQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "聖安東尼奧",
@@ -1444,7 +1444,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 27 小時 59 分鐘, TPE–SAT",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMncwGicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMGYydzByBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3pHZ3NJL2VZQ0VBQWFBMVJYUkRnNGNLZnZDQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMncwGicSCjIwMjYtMDktMjMyAkNJagwIAhIIL20vMGYydzByBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZ3pHZ3NJL2VZQ0VBQWFBMVJYUkRnNGNLZnZDQT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1461,24 +1461,24 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 19 小時 55 分鐘, TPE–MAN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTEyMgJDSWoHCAESA1RQRXIMCAISCC9tLzA1MmJ3GicSCjIwMjYtMTEtMjEyAkNJagwIAhIIL20vMDUyYndyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzBHZ3NJbXU0Q0VBQWFBMVJYUkRnNGNKU0dDUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
-      "status": "price_drop",
-      "previous_price": 48070.0,
-      "price_drop": 1196.0
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTExLTEyMgJDSWoHCAESA1RQRXIMCAISCC9tLzA1MmJ3GicSCjIwMjYtMTEtMjEyAkNJagwIAhIIL20vMDUyYndyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzBHZ3NJbXU0Q0VBQWFBMVJYUkRnNGNKU0dDUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "status": "unchanged",
+      "previous_price": null,
+      "price_drop": null
     },
     {
       "destination": "赫爾辛基",
       "country": "芬蘭",
       "outbound_date": "10月22日週四",
       "return_date": "10月28日週三",
-      "price": 47552.0,
+      "price": 47589.0,
       "original_price": 66692.0,
       "currency": "TWD",
       "discount_info": "比平時便宜 29%",
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 19 小時 15 分鐘, TPE–HEL",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTIyMgJDSWoHCAESA1RQRXIMCAISCC9tLzAza2huGicSCjIwMjYtMTAtMjgyAkNJagwIAhIIL20vMDNraG5yBwgBEgNUUEVSA1RXRHp8Q2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRrYUN3akE4d0lRQUJvRFZGZEVPRGh3OUpZSg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTIyMgJDSWoHCAESA1RQRXIMCAISCC9tLzAza2huGicSCjIwMjYtMTAtMjgyAkNJagwIAhIIL20vMDNraG5yBwgBEgNUUEVSA1RXRHp8Q2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhKRVpXRnNRMjl1YzNSeVlXbHVkSE13TFRrYUN3amw4d0lRQUJvRFZGZEVPRGh3NlpjSg&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1495,7 +1495,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 18 小時 35 分鐘, TPE–YYZ",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTIyMgJDSWoHCAESA1RQRXIMCAISCC9tLzBoN2g2GicSCjIwMjYtMTAtMzEyAkNJagwIAhIIL20vMGg3aDZyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzFHZ3NJMi9zQ0VBQWFBMVJYUkRnNGNQQ3dDUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTEwLTIyMgJDSWoHCAESA1RQRXIMCAISCC9tLzBoN2g2GicSCjIwMjYtMTAtMzEyAkNJagwIAhIIL20vMGg3aDZyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzFHZ3NJMi9zQ0VBQWFBMVJYUkRnNGNQQ3dDUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1512,7 +1512,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 16 小時 45 分鐘, TPE–ZQN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTE1MgJDSWoHCAESA1RQRXINCAISCS9tLzAxN2NmNxooEgoyMDI2LTEwLTIxMgJDSWoNCAISCS9tLzAxN2NmN3IHCAESA1RQRVIDVFdEeoABQ2pSSU5tSTRTVlpHUVRGMVJHTkJSVWN0YUVGQ1J5MHRMUzB0TFMwdExTMTBZbWhzTVVGQlFVRkJSM0ZyUzNkM1RHeEtaVTFCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRnMkdnc0lxT2dERUFBYUExUlhSRGc0Y0t1SURBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhooEgoyMDI2LTEwLTE1MgJDSWoHCAESA1RQRXINCAISCS9tLzAxN2NmNxooEgoyMDI2LTEwLTIxMgJDSWoNCAISCS9tLzAxN2NmN3IHCAESA1RQRVIDVFdEeoABQ2pSSWJWUmpRWFkwZGxWNk5rVkJSa04zTW5kQ1J5MHRMUzB0TFMwdGRHSmlhbWN4TVVGQlFVRkJSM0ZyVEdsblFuWllOMmRCRWhORVpXRnNRMjl1YzNSeVlXbHVkSE13TFRnMkdnc0lxT2dERUFBYUExUlhSRGc0Y0t1SURBPT0&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1529,7 +1529,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 23 小時 58 分鐘, TPE–LAS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBjdjN3GicSCjIwMjYtMDktMjQyAkNJagwIAhIIL20vMGN2M3dyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzNHZ3NJeDZBRUVBQWFBMVJYUkRnNGNKdTZEUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE3MgJDSWoHCAESA1RQRXIMCAISCC9tLzBjdjN3GicSCjIwMjYtMDktMjQyAkNJagwIAhIIL20vMGN2M3dyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzNHZ3NJeDZBRUVBQWFBMVJYUkRnNGNKdTZEUT09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1546,7 +1546,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 48 分鐘, TPE–DFW",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMnJxGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMGYycnFyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzRHZ3NJd2JzRUVBQWFBMVJYUkRnNGNMcVBEZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzBmMnJxGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMGYycnFyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzRHZ3NJd2JzRUVBQWFBMVJYUkRnNGNMcVBEZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1563,7 +1563,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 32 分鐘, TPE–DEN",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzAyY2wxGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMDJjbDFyBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzVHZ3NJMnIwRUVBQWFBMVJYUkRnNGNMT1dEZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzAyY2wxGicSCjIwMjYtMDktMjUyAkNJagwIAhIIL20vMDJjbDFyBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUZzVHZ3NJMnIwRUVBQWFBMVJYUkRnNGNMT1dEZz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1580,7 +1580,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 54 分鐘, TPE–BNA",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzA1amJuGicSCjIwMjYtMDktMjYyAkNJagwIAhIIL20vMDVqYm5yBwgBEgNUUEVSA1RXRHqAAUNqUklObUk0U1ZaR1FURjFSR05CUlVjdGFFRkNSeTB0TFMwdExTMHRMUzEwWW1oc01VRkJRVUZCUjNGclMzZDNUR3hLWlUxQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUa3dHZ3NJbFBFRUVBQWFBMVJYUkRnNGNKQzVEdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhonEgoyMDI2LTA5LTE5MgJDSWoHCAESA1RQRXIMCAISCC9tLzA1amJuGicSCjIwMjYtMDktMjYyAkNJagwIAhIIL20vMDVqYm5yBwgBEgNUUEVSA1RXRHqAAUNqUkliVlJqUVhZMGRsVjZOa1ZCUmtOM01uZENSeTB0TFMwdExTMHRkR0ppYW1jeE1VRkJRVUZCUjNGclRHbG5RblpZTjJkQkVoTkVaV0ZzUTI5dWMzUnlZV2x1ZEhNd0xUa3dHZ3NJbFBFRUVBQWFBMVJYUkRnNGNKQzVEdz09&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
@@ -1597,7 +1597,7 @@
       "airline": "",
       "flight_number": "",
       "flight_details": "轉機 1 次, 25 小時 45 分鐘, TPE–AUS",
-      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXILCAISBy9tLzB2em0aJhIKMjAyNi0wOS0yNTICQ0lqCwgCEgcvbS8wdnptcgcIARIDVFBFUgNUV0R6gAFDalJJTm1JNFNWWkdRVEYxUkdOQlJVY3RhRUZDUnkwdExTMHRMUzB0TFMxMFltaHNNVUZCUVVGQlIzRnJTM2QzVEd4S1pVMUJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVGt4R2dzSWgvWUVFQUFhQTFSWFJEZzRjTS9JRHc9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
+      "source_url": "https://www.google.com/travel/flights?tfs=CCoQAhomEgoyMDI2LTA5LTE4MgJDSWoHCAESA1RQRXILCAISBy9tLzB2em0aJhIKMjAyNi0wOS0yNTICQ0lqCwgCEgcvbS8wdnptcgcIARIDVFBFUgNUV0R6gAFDalJJYlZSalFYWTBkbFY2TmtWQlJrTjNNbmRDUnkwdExTMHRMUzB0ZEdKaWFtY3hNVUZCUVVGQlIzRnJUR2xuUW5aWU4yZEJFaE5FWldGc1EyOXVjM1J5WVdsdWRITXdMVGt4R2dzSWgvWUVFQUFhQTFSWFJEZzRjTS9JRHc9PQ&curr=TWD&hl=zh-TW&gl=TW&gsas=1",
       "status": "unchanged",
       "previous_price": null,
       "price_drop": null
